@@ -1,0 +1,18 @@
+$breakpoints: (
+	'xxl': (max-width: 1680px),
+	'xl': (max-width: 1480px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 680px),
+	'xs': (max-width: 480px),
+	'xxs': (max-width: 375px),
+);
+
+$font: 'Ubuntu', Arial, sans-serif;
+
+$blue: #00336c;
+$purple: #7415f1;
+
+$container_width: 1000px;
+
+$gutter: 12px;
