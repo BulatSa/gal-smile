@@ -15,7 +15,7 @@
 				</ul>
 			</nav>
 			<a href="#" class="header__phone">
-				<i></i>
+				<i class="i-phone"></i>
 				<span>8 (812) 209 01 10</span>
 			</a>
 			<div class="header__contact">

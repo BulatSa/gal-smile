@@ -1041,6 +1041,107 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 1000px #FFF inset; }
 
+@font-face {
+  font-family: 'Magnolia';
+  src: url("../hinted-subset-Magnolia-Script.woff2") format("woff2"), url("../hinted-subset-Magnolia-Script.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?jmvccp");
+  src: url("../fonts/icomoon.eot?jmvccp#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?jmvccp") format("truetype"), url("../fonts/icomoon.woff?jmvccp") format("woff"), url("../fonts/icomoon.svg?jmvccp#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.i-apple:before {
+  content: "\e900"; }
+
+.i-back:before {
+  content: "\e901"; }
+
+.i-chair:before {
+  content: "\e902"; }
+
+.i-dislike:before {
+  content: "\e903"; }
+
+.i-doc:before {
+  content: "\e904"; }
+
+.i-factory:before {
+  content: "\e905"; }
+
+.i-instr:before {
+  content: "\e906"; }
+
+.i-med-key:before {
+  content: "\e907"; }
+
+.i-med-man:before {
+  content: "\e908"; }
+
+.i-money:before {
+  content: "\e90d"; }
+
+.i-next:before {
+  content: "\e90e"; }
+
+.i-phone:before {
+  content: "\e90f"; }
+
+.i-prev:before {
+  content: "\e910"; }
+
+.i-question:before {
+  content: "\e911"; }
+
+.i-right-arrow:before {
+  content: "\e912"; }
+
+.i-scroll:before {
+  content: "\e913"; }
+
+.i-termometr:before {
+  content: "\e914"; }
+
+.i-tooth:before {
+  content: "\e915"; }
+
+.i-toothbrush:before {
+  content: "\e916"; }
+
+.i-tooth-hole:before {
+  content: "\e917"; }
+
+.i-tooth-loope:before {
+  content: "\e918"; }
+
+.i-soc-fb:before {
+  content: "\e909"; }
+
+.i-soc-insta:before {
+  content: "\e90a"; }
+
+.i-soc-vk:before {
+  content: "\e90b"; }
+
+.i-soc-you:before {
+  content: "\e90c"; }
+
 body {
   font-family: "Ubuntu", Arial, sans-serif;
   font-size: 16px;
@@ -1513,10 +1614,10 @@ a {
 .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1300px;
   position: relative;
-  padding-left: 16px;
-  padding-right: 16px; }
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .row {
   display: -webkit-box;
@@ -1524,11 +1625,11 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: -12px;
-  margin-right: -12px; }
+  margin-left: -10px;
+  margin-right: -10px; }
   .row [class^="grid"] {
-    padding-left: 12px;
-    padding-right: 12px; }
+    padding-left: 10px;
+    padding-right: 10px; }
   .row--center {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -1864,11 +1965,31 @@ button::-moz-focus-inner {
     padding-left: 0; }
   .header__menu a {
     display: block;
-    padding-left: 20px;
-    padding-right: 20px;
-    letter-spacing: 0.01em; }
+    padding: 20px 35px;
+    letter-spacing: 0.01em;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    @media (max-width: 1480px) {
+      .header__menu a {
+        padding: 20px 18px; } }
+    .header__menu a:hover {
+      color: #7415f1; }
+
+.header__phone {
+  position: relative;
+  display: block;
+  padding: 5px 15px;
+  padding-left: 35px;
+  border: 1px solid #00336c;
+  border-radius: 20px; }
+  .header__phone i {
+    position: absolute;
+    top: 8px;
+    left: 12px; }
 
 .header__contact {
+  padding-left: 10px;
   font-size: 12px; }
   .header__contact span {
     color: #7415f1; }
