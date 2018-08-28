@@ -31,10 +31,10 @@
 }
 
 .container {
-	margin: 0 auto;
-	width: 100%;
-	max-width: $container_width;
 	position: relative;
+	max-width: $container_width;
+	width: 100%;
+	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
 }

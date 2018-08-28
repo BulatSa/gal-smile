@@ -4,6 +4,11 @@
 <header class="header-sec">
 	<div class="container">
 		<div class="header">
+			<button class="hamburger hamburger--slider " type="button">
+			   <span class="hamburger-box">
+			      <span class="hamburger-inner"></span>
+			   </span>
+			</button>
 			<nav class="header__menu">
 				<ul>
 					<li><a href="#">О нас</a></li>

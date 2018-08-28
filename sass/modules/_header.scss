@@ -4,6 +4,9 @@
 	left: 0;
 	right: 0;
 	background: transparentize(#000,1);
+	@include res(m) {
+		padding: 10px 0;
+	}
 	&.active {
 		background: #fff;
 	}
@@ -15,11 +18,16 @@
 	justify-content: space-between;
 }
 
+.header__burger {}
+
 .header__menu {
 	font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: $blue;
+	@include res(m) {
+		display: none;
+	}
 	ul {
 		display: flex;
 		list-style: none;
@@ -38,6 +46,9 @@
 		transition: all 0.3s ease;
 		@include res(xl) {
 			padding: 20px 18px;
+		}
+		@include res(l) {
+			padding: 15px 12px;
 		}
 		&:hover {
 			color: $purple;
