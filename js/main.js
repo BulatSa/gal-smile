@@ -180,7 +180,86 @@ $(function () {
 	}, {
 		offset: '85%'
 	});
+
+	$(window).on('scroll',function () {
+		if ($(this).scrollTop() > 40){
+			$('.header-sec').addClass('active');
+		} else {
+			$('.header-sec').removeClass('active');
+		}
+	});
 });
 /***********************
  Waypoints END
  ***********************/
+
+
+/***********************
+ Mobile menu BEGIN
+ ***********************/
+$(function(){
+	$('.hamburger').on('click',function (e) {
+		$(this).toggleClass('is-active');
+		$('.mobile-menu-wrap').toggleClass('opened');
+	});
+
+	$(document).on('click touchstart',function (e) {
+		var div = $(".hamburger,.mobile-menu-wrap");
+		if (!div.is(e.target) && div.has(e.target).length === 0){
+			$('.hamburger').removeClass('is-active');
+			$('.mobile-menu-wrap').removeClass('opened');
+		}
+	});
+});
+/***********************
+ Mobile menu END
+ ***********************/
+
+
+/***********************
+ Link anchors BEGIN
+ ***********************/
+$(function($){
+
+	$('.header__menu a').each(function () {
+		var target = $(this).attr('href');
+		$(target).addClass('__nav-section');
+	});
+
+	$(window).scroll(function() {
+		var w_scroll = $(window).scrollTop();
+		var w_height = $(window).height();
+		$('.header__menu li').removeClass('active');
+		$('.__nav-section').each(function() {
+			var section_top = $(this).offset().top;
+			var section_h = $(this).outerHeight();
+
+			if ((w_scroll >= section_top-w_height/2) && (w_scroll < section_top + section_h-80)){
+				var section_index = $(this).index('.__nav-section');
+				$('.header__menu li').eq(section_index).addClass('active');
+			}
+		});
+	});
+
+});
+/***********************
+ Link anchors END
+ ***********************/
+
+
+/***********************
+FullPage BEGIN
+***********************/
+// $(function($){
+// 	$('#fullpage').fullpage({
+// 		//options here
+// 		autoScrolling:true,
+// 		scrollHorizontally: true
+// 	});
+//
+// 	//methods
+// 	$.fn.fullpage.setAllowScrolling(false);
+// });
+/***********************
+FullPage END
+***********************/

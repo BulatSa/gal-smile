@@ -37,6 +37,10 @@
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
+	@include res(s) {
+		padding-left: 18px;
+		padding-right: 18px;
+	}
 }
 
 .row {

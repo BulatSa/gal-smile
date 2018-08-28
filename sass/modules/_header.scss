@@ -3,12 +3,41 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	background: transparentize(#000,1);
+	border-bottom: 1px solid transparentize(#e2e3e3,1);
+	transition: all 0.3s ease;
+	background: transparentize(#fff,0.9);
 	@include res(m) {
 		padding: 10px 0;
 	}
+	@include res(s) {
+		//padding-top: 2px;
+	}
 	&.active {
+		border-color: #e2e3e3;
 		background: #fff;
+		.header__contact {
+			@include res(s) {
+				height: 0;
+				padding-top: 0;
+			}
+		}
+	}
+}
+
+.hamburger {
+	display: none!important;
+	z-index: 6;
+	@include res(m) {
+		position: fixed;
+		top: 4px;
+		left: 2px;
+		display: block!important;
+		outline: none;
+	}
+	&.is-active {
+		.hamburger-inner, .hamburger-inner:after {
+			background-color: #939495;
+		}
 	}
 }
 
@@ -16,9 +45,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	@include res(m) {
+		flex-wrap: wrap;
+	}
 }
 
-.header__burger {}
 
 .header__menu {
 	font-size: 12px;
@@ -61,8 +92,12 @@
 	display: block;
 	padding: 5px 15px;
 	padding-left: 35px;
+	color: $blue;
 	border: 1px solid $blue;
 	border-radius: 20px;
+	@include res(m) {
+		margin-left: auto;
+	}
 	i {
 		position: absolute;
 		top: 8px;
@@ -73,10 +108,80 @@
 .header__contact {
 	padding-left: 10px;
 	font-size: 12px;
+	transition: all 0.3s ease;
+	overflow: hidden;
+	@include res(s) {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding-top: 10px;
+		padding-left: 0;
+	}
 	span {
 		color: $purple;
+		@include res(s) {
+			display: block;
+			margin-right: 4px;
+			padding-right: 4px;
+			border-right: 1px solid $purple;
+		}
 	}
 	p {
 		color: $blue;
 	}
+}
+
+.mobile-menu-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-left: $pad-xs;
+	color: #fff;
+	background: #00336c;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease;
+	transform: translate3d(-100%,0,0);
+	z-index: 5;
+	img {
+		display: block;
+		margin: 0 auto $pad-xs;
+	}
+	&.opened {
+		opacity: 1;
+		visibility: visible;
+		transform: translate3d(0,0,0);
+	}
+}
+
+.mobile-menu {
+	font-size: 16px;
+	text-align: center;
+	li {
+		display: block;
+		padding-top: 2px;
+		padding: 2px;
+	}
+	a {
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+.mobile-menu__btn {
+	padding-top: $pad-s;
+	text-align: center;
+}
+
+.mobile-menu__adress {
+	padding-top: $pad-s;
+	text-align: center;
+	font-size: 13px;
+	line-height: (21/13);
+	color: #fff;
 }
