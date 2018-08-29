@@ -2,7 +2,7 @@
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	padding: 5px 20px;
+	padding: 15px 35px;
 	font-size: 16px;
 	font-weight: 500;
 	font-family: $font;
@@ -20,13 +20,18 @@
 	transition: all 0.3s ease;
 	user-select: none;
 	background: linear-gradient(to right, #ab49e0, #ff96cc);
-
+	@include res(xl) {
+		padding: 14px 30px;
+		font-size: 15px;
+	}
 	@include res(m) {
 		padding: 12px 25px;
 		font-size: 12px;
 		box-shadow: 0 0 0 3px transparentize(#fff,0.5);
 	}
+	&:hover {
 
+	}
 	&:focus {
 		outline: none;
 	}

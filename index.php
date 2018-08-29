@@ -52,67 +52,80 @@
 	</div>
 </div>
 
-<div id="fullpage">
-	<section class="big-head-sec fullpage-sec">
-		<div class="big-head">
-			<div class="container">
-				<div class="row">
-					<div class="grid-7">
-						<div class="big-head__logo">
-							<img src="img/big-head/logo.png" alt="">
-						</div>
-						<div class="big-head__title">
-							<h1>Профессиональные стоматологические услуги в Санкт-Петербурге</h1>
-							<span>Виниры</span>
-							<span>Имплантация</span>
-							<span>Отбеливание</span>
-							<span>Установка брекетов</span>
-							<span>Лечение</span>
-						</div>
-						<div class="big-head__icons">
-							<div class="big-head__icon">
+
+<section class="big-head-sec fullpage-sec">
+	<div class="big-head">
+		<div class="container">
+			<div class="row">
+				<div class="grid-8 grid-12_m">
+					<div class="big-head__logo">
+						<img src="img/big-head/logo.png" alt="">
+					</div>
+					<div class="big-head__title">
+						<h1>Профессиональные стоматологические услуги в&nbsp;Санкт&nbsp;-&nbsp;Петербурге</h1>
+						<span>Виниры</span>
+						<span>Имплантация</span>
+						<span>Отбеливание</span>
+						<span>Установка брекетов</span>
+						<span>Лечение</span>
+					</div>
+					<div class="big-head__icons">
+						<div class="big-head__icon">
+							<div class="big-head__icon-img">
 								<i class="i-instr"></i>
-								<span>Полный комплекс услуг</span>
 							</div>
-							<div class="big-head__icon">
-								<i class="i-tooth"></i>
-								<span>Гарантия до 5 лет</span>
-							</div>
-							<div class="big-head__icon">
-								<i class="i-doc"></i>
-								<span>Рассрочка до 6 месяцев</span>
-							</div>
-							<div class="big-head__icon">
-								<i class="i-apple"></i>
-								<span>100% эстетический результат</span>
-							</div>
-							<div class="big-head__icon">
-								<i class="i-chair"></i>
-								<span>Современное оборудование</span>
-							</div>
+							<span>Полный комплекс услуг</span>
 						</div>
-						<div class="big-head__btn">
-							<a href="#" class="btn" data-src="#modal-order">Записаться на прием</a>
+						<div class="big-head__icon">
+							<div class="big-head__icon-img">
+								<i class="i-tooth"></i>
+							</div>
+							<span>Гарантия до 5 лет</span>
+						</div>
+						<div class="big-head__icon">
+							<div class="big-head__icon-img">
+								<i class="i-doc"></i>
+							</div>
+							<span>Рассрочка до 6 месяцев</span>
+						</div>
+						<div class="big-head__icon">
+							<div class="big-head__icon-img">
+								<i class="i-apple"></i>
+							</div>
+							<span>100% эстетический результат</span>
+						</div>
+						<div class="big-head__icon">
+							<div class="big-head__icon-img">
+								<i class="i-chair"></i>
+							</div>
+							<span>Современное оборудование</span>
 						</div>
 					</div>
-				</div>
-				<div class="big-head__name big-head__name--1">
-					<p>Головешко Сергей Андреевич</p>
-					<span>Стоматолог-терапевт, хирург</span>
-					<span>Главный врач клиники</span>
-				</div>
-				<div class="big-head__name big-head__name--2">
-					<p>Симоненко Максим Александрович</p>
-					<span>Стоматолог-терапевт, хирург</span>
-					<span>Генеральный директор клиники</span>
-				</div>
-				<div class="big-head__scroll">
-					<i class="i-scroll"></i>
+					<div class="big-head__btn">
+						<a href="#" class="btn" data-src="#modal-order">Записаться на прием</a>
+					</div>
 				</div>
 			</div>
+			<div class="big-head__mans">
+				<img src="img/big-head/mans.png" alt="">
+				<div class="big-head__circle"></div>
+			</div>
+			<div class="big-head__name big-head__name--1">
+				<p>Головешко Сергей Андреевич</p>
+				<span>Стоматолог-терапевт, хирург</span>
+				<span>Главный врач клиники</span>
+			</div>
+			<div class="big-head__name big-head__name--2">
+				<p>Симоненко Максим Александрович</p>
+				<span>Стоматолог-терапевт, хирург</span>
+				<span>Генеральный директор клиники</span>
+			</div>
+			<div class="big-head__scroll">
+				<i class="i-scroll"></i>
+			</div>
 		</div>
-	</section>
-</div>
+	</div>
+</section>
 
 
 

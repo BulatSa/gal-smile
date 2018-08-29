@@ -5,7 +5,9 @@
 	right: 0;
 	border-bottom: 1px solid transparentize(#e2e3e3,1);
 	transition: all 0.3s ease;
+	transform: translate3d(0,0,0);
 	background: transparentize(#fff,0.9);
+	z-index: 5;
 	@include res(m) {
 		padding: 10px 0;
 	}
@@ -15,6 +17,13 @@
 	&.active {
 		border-color: #e2e3e3;
 		background: #fff;
+		.header__menu {
+			a {
+				@include res(xl) {
+					padding: 15px 18px;
+				}
+			}
+		}
 		.header__contact {
 			@include res(s) {
 				height: 0;
@@ -66,7 +75,7 @@
 	li {
 		&:first-child {
 			a {
-				padding-left: 0;
+				padding-left: 0!important;
 			}
 		}
 	}
@@ -95,8 +104,12 @@
 	color: $blue;
 	border: 1px solid $blue;
 	border-radius: 20px;
-	@include res(m) {
+	@include res(xl) {
+		margin-right: 10px;
 		margin-left: auto;
+	}
+	@include res(s) {
+		margin-right: 0;
 	}
 	i {
 		position: absolute;
