@@ -67,6 +67,19 @@
 	flex-wrap: wrap;
 }
 
+.def-sec {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	@include res(xl) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	@include res(l) {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
 .clearfix {
 	&:before {
 		content: " ";

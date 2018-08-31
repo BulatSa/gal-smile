@@ -128,6 +128,48 @@
 </section>
 
 
-
+<section class="about-sec def-sec">
+	<div class="container">
+		<div class="about">
+			<div class="row">
+				<div class="grid-6">
+					<div class="about__video">
+						<div class="about__video-info">
+							<div class="about__video-img">
+								<img src="img/about/man.png" alt="">
+							</div>
+							<p>Превосходный сервис</p>
+							<span>Качественная помощь - не только высокотехнологичное оснащение клиники, но и, в первую очередь, профессионализм нашей команды.</span>
+						</div>
+						<div class="about__video-play">
+							<a href="#">
+								<img src="img/about/play.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-6">
+					<div class="about__info">
+						<div class="user-content">
+							<p class="h1">Не стесняйтесь своей улыбки </p>
+							<p>Более 12 лет мы помогаем клиентам обрести уверенность в себе и новую улыбку, которой хочется делиться с окружающими. К нам обращаются как в простых, так и сложных случаях, требующих заботы, внимания и определенного уровня мастерства. </p>
+							<p>Наши специалисты применяют современные техники пломбирования, удаления и протезирования зубов и способны устранить дефекты любой сложности. Мы используем микроскопы, компьютерные томографы и инновационные медицинские материалы и препараты, которые увеличивают точность лечения и позволяют удалять только поврежденные участки, сохраняя здоровую зубную ткань.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about__serts">
+				<div class="about__sert">
+					<div class="about__sert-img">
+						<a href="#" class="fancy">
+							<img src="img/about/sert-1.jpg" alt="">
+						</a>
+					</div>
+					<span>Лицензия стоматологической клиники Галерея улыбки</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <?php include('footer.php'); ?>
