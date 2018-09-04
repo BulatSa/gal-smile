@@ -136,7 +136,7 @@
 					<div class="about__video">
 						<div class="about__video-info">
 							<div class="about__video-img">
-								<img src="img/about/man.png" alt="">
+								<img src="img/about/man.jpg" alt="">
 							</div>
 							<p>Превосходный сервис</p>
 							<span>Качественная помощь - не только высокотехнологичное оснащение клиники, но и, в первую очередь, профессионализм нашей команды.</span>
