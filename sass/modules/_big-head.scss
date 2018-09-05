@@ -1,9 +1,10 @@
 .big-head-sec {
-
-
 	background: url("../img/big-head/bg.jpg") no-repeat center top, #f5f9fc;
 	background-size: cover;
 	overflow: hidden;
+	@include res(s) {
+		overflow: initial;
+	}
 }
 
 .big-head {
@@ -22,6 +23,9 @@
 		}
 		@include res(m) {
 			min-height: initial;
+		}
+		@include res(s) {
+			padding-bottom: 0;
 		}
 		@include res(xs) {
 			padding-top: 100px;
@@ -146,6 +150,7 @@
 }
 
 .big-head__btn {
+	position: relative;
 	padding-top: $pad-m;
 	@include res(l) {
 		padding-top: $pad-s;
@@ -154,7 +159,9 @@
 		text-align: center;
 	}
 	@include res(s) {
+		margin-bottom: -20px;
 		padding-top: 15px;
+		z-index: 1;
 	}
 }
 

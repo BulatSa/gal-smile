@@ -132,7 +132,7 @@
 	<div class="container">
 		<div class="about">
 			<div class="row">
-				<div class="grid-6">
+				<div class="grid-6 grid-12_s">
 					<div class="about__video">
 						<div class="about__video-info">
 							<div class="about__video-img">
@@ -142,13 +142,13 @@
 							<span>Качественная помощь - не только высокотехнологичное оснащение клиники, но и, в первую очередь, профессионализм нашей команды.</span>
 						</div>
 						<div class="about__video-play">
-							<a href="#">
+							<a href="https://www.youtube.com/watch?v=QHRuTYtSbJQ" class="fancy-video">
 								<img src="img/about/play.png" alt="">
 							</a>
 						</div>
 					</div>
 				</div>
-				<div class="grid-6">
+				<div class="grid-6 grid-12_s">
 					<div class="about__info">
 						<div class="user-content">
 							<p class="h1">Не стесняйтесь своей улыбки </p>
@@ -161,11 +161,88 @@
 			<div class="about__serts">
 				<div class="about__sert">
 					<div class="about__sert-img">
-						<a href="#" class="fancy">
+						<a href="img/about/sert-1.jpg" class="fancy">
 							<img src="img/about/sert-1.jpg" alt="">
 						</a>
 					</div>
 					<span>Лицензия стоматологической клиники Галерея улыбки</span>
+				</div>
+				<div class="about__sert">
+					<div class="about__sert-img">
+						<a href="img/about/sert-1.jpg" class="fancy">
+							<img src="img/about/sert-1.jpg" alt="">
+						</a>
+					</div>
+					<span>Лицензия стоматологической клиники Галерея улыбки</span>
+				</div>
+				<div class="about__sert">
+					<div class="about__sert-img">
+						<a href="img/about/sert-1.jpg" class="fancy">
+							<img src="img/about/sert-1.jpg" alt="">
+						</a>
+					</div>
+					<span>Лицензия стоматологической клиники Галерея улыбки</span>
+				</div>
+				<div class="about__sert">
+					<div class="about__sert-img">
+						<a href="img/about/sert-1.jpg" class="fancy">
+							<img src="img/about/sert-1.jpg" alt="">
+						</a>
+					</div>
+					<span>Лицензия стоматологической клиники Галерея улыбки</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="problems-sec def-sec">
+	<div class="problems">
+		<div class="container">
+			<div class="page-title">
+				<p class="h1">Вы тоже сталкивались с этим?</p>
+			</div>
+			<div class="problems__nav">
+				<a href="#" class="problems__nav-link">
+					<span>Сложная система оплаты</span>
+					<img src="img/problem/icon-1.svg" alt="">
+				</a>
+				<a href="#" class="problems__nav-link">
+					<span>Неприятные ощущения и боль </span>
+					<img src="img/problem/icon-2.svg" alt="">
+				</a>
+				<a href="#" class="problems__nav-link">
+					<span>Неполное обследование</span>
+					<img src="img/problem/icon-3.svg" alt="">
+				</a>
+				<a href="#" class="problems__nav-link">
+					<span>Сомнительная репутация</span>
+					<img src="img/problem/icon-4.svg" alt="">
+				</a>
+				<a href="#" class="problems__nav-link">
+					<span>Нарушение санитарных норм</span>
+					<img src="img/problem/icon-5.svg" alt="">
+				</a>
+				<a href="#" class="problems__nav-link">
+					<span>Результат не оправдал ожидания</span>
+					<img src="img/problem/icon-6.svg" alt="">
+				</a>
+				<a href="#" class="problems__nav-link">
+					<span>Недопонимания между врачом и пациентом</span>
+					<img src="img/problem/icon-7.svg" alt="">
+				</a>
+				<a href="#" class="problems__nav-link">
+					<span>Некачественная услуга</span>
+					<img src="img/problem/icon-8.svg" alt="">
+				</a>
+			</div>
+			<div class="problems__slider">
+				<div class="problems__slide">
+					<div class="problems__slide-img">
+						<img src="" alt="">
+					</div>
+					<p></p>
 				</div>
 			</div>
 		</div>

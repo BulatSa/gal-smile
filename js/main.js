@@ -263,3 +263,33 @@ FullPage BEGIN
 /***********************
 FullPage END
 ***********************/
+
+
+/***********************
+Flickity BEGIN
+***********************/
+$(function($){
+	// Flickity options, defaults
+	var aboutSertOptions = {
+		cellAlign: 'center',
+		wrapAround: true,
+		pageDots: false,
+		adaptiveHeight: true,
+		arrowShape: {
+			x0: 25,
+			x1: 60, y1: 35,
+			x2: 70, y2: 35,
+			x3: 35
+		}
+	};
+	// disable prev/next buttons at 680px
+	if ( matchMedia('screen and (max-width: 680px)').matches ) {
+		aboutSertOptions.contain = true;
+		aboutSertOptions.cellAlign = 'left';
+		aboutSertOptions.prevNextButtons = false;
+	}
+	$('.about__serts').flickity(aboutSertOptions);
+});
+/***********************
+Flickity END
+***********************/
