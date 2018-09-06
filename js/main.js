@@ -187,6 +187,12 @@ $(function () {
 		} else {
 			$('.header-sec').removeClass('active');
 		}
+
+		if ($(this).scrollTop() > 1040){
+			$('.big-head__circle').addClass('stop-anim');
+		} else {
+			$('.big-head__circle').removeClass('stop-anim');
+		}
 	});
 });
 /***********************
@@ -289,6 +295,36 @@ $(function($){
 		aboutSertOptions.prevNextButtons = false;
 	}
 	$('.about__serts').flickity(aboutSertOptions);
+
+	function problemSliderInit() {
+		$('.problems__slider').flickity({
+			prevNextButtons: false,
+			pageDots: false,
+			contain: true,
+			draggable: false,
+			selectedAttraction: 1,
+			friction: 1
+		});
+		// 2nd carousel, navigation
+		$('.problems__nav').flickity({
+			asNavFor: '.problems__slider',
+			contain: true,
+			pageDots: false,
+			draggable: false,
+			prevNextButtons: false
+		});
+	}
+
+	if($(window).width() > 768) {
+		problemSliderInit();
+	}
+	$( window ).resize(function() {
+		if($(window).width() > 768) {
+			problemSliderInit();
+		}
+	});
+
+
 });
 /***********************
 Flickity END

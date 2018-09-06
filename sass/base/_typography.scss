@@ -99,4 +99,10 @@ h4, .h4 {
 .page-title {
 	text-align: center;
 	padding-bottom: $pad-m;
+	@include res(l) {
+		padding-bottom: $pad-s;
+	}
+	@include res(s) {
+		padding-bottom: $pad-xs;
+	}
 }

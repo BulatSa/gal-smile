@@ -221,6 +221,11 @@
 		animation: mans-pulse-2 20s infinite ease alternate;
 		transform-origin: 48% 48%;
 	}
+	&.stop-anim {
+		&:before, &:after {
+			animation-play-state: paused;
+		}
+	}
 }
 
 @keyframes mans-pulse {

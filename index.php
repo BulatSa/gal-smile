@@ -197,52 +197,170 @@
 </section>
 
 
-<section class="problems-sec def-sec">
+<section class="problems-sec def-sec-top">
 	<div class="problems">
 		<div class="container">
 			<div class="page-title">
 				<p class="h1">Вы тоже сталкивались с этим?</p>
 			</div>
 			<div class="problems__nav">
-				<a href="#" class="problems__nav-link">
+				<div class="problems__nav-link">
 					<span>Сложная система оплаты</span>
+					<p>Озвучиваем конечную стоимость в самом начале лечение и прописываем ее в договоре. Если появляются новые расходы — берем их на себя.</p>
 					<img src="img/problem/icon-1.svg" alt="">
-				</a>
-				<a href="#" class="problems__nav-link">
+				</div>
+				<div class="problems__nav-link">
 					<span>Неприятные ощущения и боль </span>
+					<p>Мы используем анестезию последнего поколения, чтобы пациенты чувствовали себя комфортно во время лечения. Не начинаем процедуру, если обезболивающее не подействовало.</p>
 					<img src="img/problem/icon-2.svg" alt="">
-				</a>
-				<a href="#" class="problems__nav-link">
+				</div>
+				<div class="problems__nav-link">
 					<span>Неполное обследование</span>
+					<p>Мы располагаем современным оборудованием для точной диагностики. Все необходимые анализы вы сможете сдать в нашей клинике всего за 30 минут и почти сразу же получить результаты.</p>
 					<img src="img/problem/icon-3.svg" alt="">
-				</a>
-				<a href="#" class="problems__nav-link">
+				</div>
+				<div class="problems__nav-link">
 					<span>Сомнительная репутация</span>
+					<p>Мы привыкли работать на совесть и прислушиваться к отзывам клиентов. Более 80% наших новых пациентов приходят по рекомендациям родственников, друзей или знакомых.</p>
 					<img src="img/problem/icon-4.svg" alt="">
-				</a>
-				<a href="#" class="problems__nav-link">
+				</div>
+				<div class="problems__nav-link">
 					<span>Нарушение санитарных норм</span>
+					<p>Во время лечения используем одноразовые стоматологические инструменты и вспомогательные материалы. Проводим стерилизацию по всем правилам в несколько этапов. </p>
 					<img src="img/problem/icon-5.svg" alt="">
-				</a>
-				<a href="#" class="problems__nav-link">
+				</div>
+				<div class="problems__nav-link">
 					<span>Результат не оправдал ожидания</span>
+					<p>Мы предварительно моделируем вашу новую улыбку и согласовываем ее с вами. Врачи проведут примерку и окончательно зафиксируют результат только после вашего одобрения.</p>
 					<img src="img/problem/icon-6.svg" alt="">
-				</a>
-				<a href="#" class="problems__nav-link">
+				</div>
+				<div class="problems__nav-link">
 					<span>Недопонимания между врачом и пациентом</span>
+					<p>Наши специалисты всегда найдут общий язык с пациентом и предложат решение даже в сложной ситуации. После лечения каждый врач находится на связи с клиентом 7 дней в неделю.</p>
 					<img src="img/problem/icon-7.svg" alt="">
-				</a>
-				<a href="#" class="problems__nav-link">
+				</div>
+				<div class="problems__nav-link">
 					<span>Некачественная услуга</span>
+					<p>Даем гарантию до 5 лет.  Ежегодно проводим бесплатные контрольные осмотры для всех пациентов клиники.</p>
 					<img src="img/problem/icon-8.svg" alt="">
-				</a>
+				</div>
 			</div>
-			<div class="problems__slider">
-				<div class="problems__slide">
-					<div class="problems__slide-img">
-						<img src="" alt="">
+			<div class="problems__slider-wrap">
+				<div class="problems__slider">
+					<div class="problems__slide">
+						<div class="problems__slide-img">
+							<img src="img/problem/slide-1.png" alt="">
+						</div>
+						<p>Озвучиваем конечную стоимость в самом начале лечение и прописываем ее в договоре. Если появляются новые расходы — берем их на себя. 1</p>
 					</div>
-					<p></p>
+					<div class="problems__slide">
+						<div class="problems__slide-img">
+							<img src="img/problem/slide-2.png" alt="">
+						</div>
+						<p>Озвучиваем конечную стоимость в самом начале лечение и прописываем ее в договоре. Если появляются новые расходы — берем их на себя. 2</p>
+					</div>
+					<div class="problems__slide">
+						<div class="problems__slide-img">
+							<img src="img/problem/slide-1.png" alt="">
+						</div>
+						<p>Озвучиваем конечную стоимость в самом начале лечение и прописываем ее в договоре. Если появляются новые расходы — берем их на себя. 3</p>
+					</div>
+					<div class="problems__slide">
+						<div class="problems__slide-img">
+							<img src="img/problem/slide-2.png" alt="">
+						</div>
+						<p>Озвучиваем конечную стоимость в самом начале лечение и прописываем ее в договоре. Если появляются новые расходы — берем их на себя. 4</p>
+					</div>
+
+					<div class="problems__slide">
+						<div class="problems__slide-img">
+							<img src="img/problem/slide-1.png" alt="">
+						</div>
+						<p>Озвучиваем конечную стоимость в самом начале лечение и прописываем ее в договоре. Если появляются новые расходы — берем их на себя. 5</p>
+					</div>
+					<div class="problems__slide">
+						<div class="problems__slide-img">
+							<img src="img/problem/slide-2.png" alt="">
+						</div>
+						<p>Озвучиваем конечную стоимость в самом начале лечение и прописываем ее в договоре. Если появляются новые расходы — берем их на себя. 6</p>
+					</div>
+					<div class="problems__slide">
+						<div class="problems__slide-img">
+							<img src="img/problem/slide-1.png" alt="">
+						</div>
+						<p>Озвучиваем конечную стоимость в самом начале лечение и прописываем ее в договоре. Если появляются новые расходы — берем их на себя. 7</p>
+					</div>
+					<div class="problems__slide">
+						<div class="problems__slide-img">
+							<img src="img/problem/slide-2.png" alt="">
+						</div>
+						<p>Озвучиваем конечную стоимость в самом начале лечение и прописываем ее в договоре. Если появляются новые расходы — берем их на себя. 8</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<section class="result-sec def-sec">
+	<div class="container">
+		<div class="result">
+			<div class="page-title">
+				<p class="h1">Теперь их истории звучат по-другому</p>
+			</div>
+			<div class="result__nav">
+				<a href="#" class="active">Мужская улыбка</a>
+				<a href="#">женская улыбка</a>
+			</div>
+			<div class="result__slider-wrap">
+				<div class="result__slider active">
+					<div class="result__slide">
+						<div class="result__slide-about">
+							<div class="result__slide-man">
+								<img src="" alt="">
+								<p>Головешко Сергей Андреевич</p>
+								<span>Ортопед-хирург, имплантолог</span>
+							</div>
+							<div class="result__slide-text">
+								<p class="h4">Новые зубы за 1 день</p>
+								<span>Клиент не ходил на свидания, потому что стеснялся своей улыбки.</span>
+							</div>
+						</div>
+						<div class="result__slide-photo">
+							<p>Имплантация зубов</p>
+							<div>
+								<img src="" alt="">
+							</div>
+							<div>
+								<img src="" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="result__slide">
+						<div class="result__slide-about">
+							<div class="result__slide-man">
+								<img src="" alt="">
+								<p>Симоненко Максим Александрович</p>
+								<span>Ортопед-хирург, имплантолог</span>
+							</div>
+							<div class="result__slide-text">
+								<p class="h4">Звездная улыбка за одно посещение</p>
+								<span>От 20 чашек кофе в день зубы Надежды стали на несколько тонов темнее.</span>
+							</div>
+						</div>
+						<div class="result__slide-photo">
+							<p>Отбеливание</p>
+							<div>
+								<img src="" alt="">
+							</div>
+							<div>
+								<img src="" alt="">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
