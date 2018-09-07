@@ -5,42 +5,269 @@
 
 .result {}
 
-.result__nav {}
+.result__nav {
+	text-align: center;
+	@include res(s) {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	a {
+		margin: 0 $pad-xs;
+		@include res(s) {
+			margin: 0 5px 15px;
+		}
+		&.active {
+			color: #fff;
+			text-shadow: 0 1px 2px transparentize(#251034, 0.25);
+			box-shadow: 0 0 0 5px transparentize(#fff,0.5);
+			background: #a269ca;
+		}
+	}
+}
 
-.result__slider-wrap {}
+.result__slider-wrap {
+	.flickity-prev-next-button {
+		transition: all 0.3s ease;
+		&:hover {
+			box-shadow: 0 0 0 6px #ddd1e8;
+			path {
+				fill: #f35d9b;
+			}
+		}
+		svg {
+			path {
+				fill: #000;
+				transition: all 0.3s ease;
+			}
+		}
+		&.previous {
+			left: -5px;
+			@include res(s) {
+				top: 100%;
+				left: 30%;
+			}
+		}
+		&.next {
+			right: -5px;
+			@include res(s) {
+				top: 100%;
+				right: 30%;
+			}
+		}
+	}
+}
 
 .result__slider {
-	margin-left: -20px;
-	margin-right: -20px;
+	display: none;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	@include res(s) {
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: $pad-xs;
+	}
+	&.active {
+		display: block;
+	}
+}
+
+.result__slide-wrap {
+	width: 50%;
+	margin-top: 130px;
+	margin-bottom: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	@include res(l) {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	@include res(s) {
+		width: 100%;
+		margin-top: 60px;
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 .result__slide {
-	width: calc(50% - 40px);
-	margin-left: 20px;
-	margin-right: 20px;
 	border-radius: 10px;
 	box-shadow: 0 0 8px 0 transparentize(#000, 0.75);
-	overflow: hidden;
+	@include res(s) {
+		max-width: 400px;
+		margin: 0 auto;
+	}
 }
 
 .result__slide-about {
-	background: #fff;
+	position: relative;
+	display: flex;
+	align-items: center;
+	@include res(l) {
+		flex-wrap: wrap;
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: -55px;
+		left: 60px;
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;
+		box-shadow: 0 0 8px 0 transparentize(#000, 0.75);
+		background: #fff;
+		z-index: 0;
+		@include res(l) {
+			width: 120px;
+			height: 120px;
+			left: 0;
+			top: -50px;
+		}
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px 10px 0 0;
+		background: #fff;
+		z-index: 1;
+	}
 }
 
-.result__slide-man {}
+.result__slide-man {
+	position: relative;
+	width: 280px;
+	flex-shrink: 0;
+	padding: 0 $pad-xs 45px;
+	text-align: center;
+	@include res(l) {
+		width: 100%;
+		padding: $pad-xs 0 25px;
+		padding-left: 160px;
+		padding-right: $pad-s;
+	}
+	@include res(m) {
+		padding-left: 135px;
+		padding-right: $pad-xs;
+		text-align: left;
+	}
+	img {
+		margin-top: -45px;
+		border-radius: 50%;
+		@include res(l) {
+			position: absolute;
+			top: -45px;
+			left: 0;
+			margin-top: 0;
+			max-width: 120px;
+		}
+	}
+	p {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: (20/14);
+		@include res(m) {
+			font-size: 12px;
+		}
+	}
+	span {
+		display: block;
+		font-size: 12px;
+		line-height: (18/12);
+	}
+	z-index: 2;
+}
 
 .result__slide-text {
+	position: relative;
+	padding: $pad-s $pad-s;
+	padding-left: 0;
+	z-index: 2;
+	@include res(l) {
+		padding: $pad-xxs $pad-s $pad-s;
+	}
+	@include res(m) {
+		padding: 0 $pad-s $pad-s;
+	}
 	p {
+		padding-bottom: 10px;
 		color: $blue;
+	}
+	span {
+		font-size: 16px;
+		line-height: (24/16);
+		@include res(m) {
+			font-size: 14px;
+		}
+	}
+}
+
+.result__slide-photo-wrap {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: $pad-xs 25px 35px;
+	border-radius: 0 0 10px 10px;
+	background: #f1ece8;
+	z-index: 3;
+	p {
+		position: relative;
+		top: -40px;
+		display: inline-block;
+		margin: 0px auto 0;
+		min-width: 230px;
+		text-align: center;
+		padding: 10px 15px;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		color: $blue;
+		border-radius: 10px;
+		background: #fff;
+		@include res(m) {
+			font-size: 12px;
+			margin-bottom: -20px;
+		}
 	}
 }
 
 .result__slide-photo {
-	background: #f1ece8;
-	p {
-		text-transform: uppercase;
-		font-size: 14px;
-		font-weight: bold;
-		color: $blue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	div {
+		width: 50%;
+		@include res(s) {
+			width: 100%;
+		}
+		&:first-child {
+			padding-right: 10px;
+			@include res(s) {
+				padding-right: 0;
+			}
+		}
+		&:last-child {
+			padding-left: 10px;
+			@include res(s) {
+				padding-left: 0;
+			}
+		}
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		border-radius: 10px;
+		@include res(s) {
+			margin: 5px auto 5px;
+		}
 	}
 }

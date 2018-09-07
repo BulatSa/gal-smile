@@ -14,7 +14,7 @@
 	text-align: center;
 	text-shadow: 0 2px 5px transparentize(#652b84, 0.1);
 	white-space: nowrap;
-	border-radius: 25px;
+	border-radius: 30px;
 	box-shadow: 0 0 0 5px transparentize(#fff,0.5);
 	cursor: pointer;
 	transition: all 0.3s ease;
@@ -29,11 +29,27 @@
 		font-size: 12px;
 		box-shadow: 0 0 0 3px transparentize(#fff,0.5);
 	}
+	@include res(s) {
+		padding: 12px 20px;
+	}
 	&:hover {
 
 	}
 	&:focus {
 		outline: none;
+	}
+
+	&--trans {
+		color: #a269ca;
+		text-shadow: 0 2px 5px transparentize(#652b84, 1);
+		box-shadow: 0 0 0 5px transparentize(#fff,1);
+		border: 2px solid #a269ca;
+		background: transparentize(#000,1);
+		&:hover {
+			color: #fff;
+			text-shadow: 0 1px 2px transparentize(#251034, 0.25);
+			background: #a269ca;
+		}
 	}
 }
 

@@ -274,6 +274,22 @@ FullPage END
 /***********************
 Flickity BEGIN
 ***********************/
+function resultSliderInit(){
+	$('.result__slider').flickity({
+		// options
+		cellAlign: 'left',
+		pageDots: false,
+		contain: true,
+		adaptiveHeight: true,
+		arrowShape: {
+			x0: 25,
+			x1: 55, y1: 35,
+			x2: 60, y2: 30,
+			x3: 35
+		}
+	});
+}
+
 $(function($){
 	// Flickity options, defaults
 	var aboutSertOptions = {
@@ -324,8 +340,28 @@ $(function($){
 		}
 	});
 
-
+	resultSliderInit();
 });
 /***********************
 Flickity END
+***********************/
+
+
+/***********************
+Result Nav BEGIN
+***********************/
+$(function($){
+	$('.result__nav a').on('click', function (e) {
+		e.preventDefault();
+		$('.result__slider-wrap .result__slider').removeClass('active');
+		$('.result__nav a').removeClass('active');
+
+		$(this).addClass('active');
+		$('.result__slider-wrap').find($(this).attr('href')).addClass('active');
+
+		$('.result__slider').flickity('resize')
+	});
+});
+/***********************
+Result Nav END
 ***********************/

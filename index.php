@@ -311,57 +311,265 @@
 				<p class="h1">Теперь их истории звучат по-другому</p>
 			</div>
 			<div class="result__nav">
-				<a href="#" class="active">Мужская улыбка</a>
-				<a href="#">женская улыбка</a>
+				<a href="#man-result" class="btn btn--trans active">Мужская улыбка</a>
+				<a href="#woman-result" class="btn btn--trans">женская улыбка</a>
 			</div>
 			<div class="result__slider-wrap">
-				<div class="result__slider active">
-					<div class="result__slide">
-						<div class="result__slide-about">
-							<div class="result__slide-man">
-								<img src="" alt="">
-								<p>Головешко Сергей Андреевич</p>
-								<span>Ортопед-хирург, имплантолог</span>
+				<div class="result__slider active" id="man-result">
+					<div class="result__slide-wrap">
+						<div class="result__slide">
+							<div class="result__slide-about">
+								<div class="result__slide-man">
+									<img src="img/result/man-2.jpg" alt="">
+									<p>Симоненко Максим Александрович</p>
+									<span>Ортопед-хирург, имплантолог</span>
+								</div>
+								<div class="result__slide-text">
+									<p class="h4">Звездная улыбка за одно посещение</p>
+									<span>От 20 чашек кофе в день зубы Надежды стали на несколько тонов темнее.</span>
+								</div>
 							</div>
-							<div class="result__slide-text">
-								<p class="h4">Новые зубы за 1 день</p>
-								<span>Клиент не ходил на свидания, потому что стеснялся своей улыбки.</span>
-							</div>
-						</div>
-						<div class="result__slide-photo">
-							<p>Имплантация зубов</p>
-							<div>
-								<img src="" alt="">
-							</div>
-							<div>
-								<img src="" alt="">
+							<div class="result__slide-photo-wrap">
+								<p>Отбеливание</p>
+								<div class="result__slide-photo">
+									<div>
+										<img src="img/result/teeth-11.jpg" alt="">
+									</div>
+									<div>
+										<img src="img/result/teeth-12.jpg" alt="">
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="result__slide">
-						<div class="result__slide-about">
-							<div class="result__slide-man">
-								<img src="" alt="">
-								<p>Симоненко Максим Александрович</p>
-								<span>Ортопед-хирург, имплантолог</span>
+					<div class="result__slide-wrap">
+						<div class="result__slide">
+							<div class="result__slide-about">
+								<div class="result__slide-man">
+									<img src="img/result/man-1.jpg" alt="">
+									<p>Головешко Сергей Андреевич</p>
+									<span>Ортопед-хирург, имплантолог</span>
+								</div>
+								<div class="result__slide-text">
+									<p class="h4">Новые зубы за 1 день</p>
+									<span>Клиент не ходил на свидания, потому что стеснялся своей улыбки.</span>
+								</div>
 							</div>
-							<div class="result__slide-text">
-								<p class="h4">Звездная улыбка за одно посещение</p>
-								<span>От 20 чашек кофе в день зубы Надежды стали на несколько тонов темнее.</span>
+							<div class="result__slide-photo-wrap">
+								<p>Имплантация зубов</p>
+								<div class="result__slide-photo">
+									<div>
+										<img src="img/result/teeth-11.jpg" alt="">
+									</div>
+									<div>
+										<img src="img/result/teeth-12.jpg" alt="">
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="result__slide-photo">
-							<p>Отбеливание</p>
-							<div>
-								<img src="" alt="">
+					</div>
+
+
+
+					<div class="result__slide-wrap">
+						<div class="result__slide">
+							<div class="result__slide-about">
+								<div class="result__slide-man">
+									<img src="img/result/man-1.jpg" alt="">
+									<p>Головешко Сергей Андреевич</p>
+									<span>Ортопед-хирург, имплантолог</span>
+								</div>
+								<div class="result__slide-text">
+									<p class="h4">Новые зубы за 1 день</p>
+									<span>Клиент не ходил на свидания, потому что стеснялся своей улыбки.</span>
+								</div>
 							</div>
-							<div>
-								<img src="" alt="">
+							<div class="result__slide-photo-wrap">
+								<p>Имплантация зубов</p>
+								<div class="result__slide-photo">
+									<div>
+										<img src="img/result/teeth-11.jpg" alt="">
+									</div>
+									<div>
+										<img src="img/result/teeth-12.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="result__slide-wrap">
+						<div class="result__slide">
+							<div class="result__slide-about">
+								<div class="result__slide-man">
+									<img src="img/result/man-2.jpg" alt="">
+									<p>Симоненко Максим Александрович</p>
+									<span>Ортопед-хирург, имплантолог</span>
+								</div>
+								<div class="result__slide-text">
+									<p class="h4">Звездная улыбка за одно посещение</p>
+									<span>От 20 чашек кофе в день зубы Надежды стали на несколько тонов темнее.</span>
+								</div>
+							</div>
+							<div class="result__slide-photo-wrap">
+								<p>Отбеливание</p>
+								<div class="result__slide-photo">
+									<div>
+										<img src="img/result/teeth-11.jpg" alt="">
+									</div>
+									<div>
+										<img src="img/result/teeth-12.jpg" alt="">
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<div class="result__slider" id="woman-result">
+					<div class="result__slide-wrap">
+						<div class="result__slide">
+							<div class="result__slide-about">
+								<div class="result__slide-man">
+									<img src="img/result/man-1.jpg" alt="">
+									<p>Головешко Сергей Андреевич</p>
+									<span>Ортопед-хирург, имплантолог</span>
+								</div>
+								<div class="result__slide-text">
+									<p class="h4">Новые зубы за 1 день</p>
+									<span>Клиент не ходил на свидания, потому что стеснялся своей улыбки.</span>
+								</div>
+							</div>
+							<div class="result__slide-photo-wrap">
+								<p>Имплантация зубов</p>
+								<div class="result__slide-photo">
+									<div>
+										<img src="img/result/teeth-11.jpg" alt="">
+									</div>
+									<div>
+										<img src="img/result/teeth-12.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="result__slide-wrap">
+						<div class="result__slide">
+							<div class="result__slide-about">
+								<div class="result__slide-man">
+									<img src="img/result/man-2.jpg" alt="">
+									<p>Симоненко Максим Александрович</p>
+									<span>Ортопед-хирург, имплантолог</span>
+								</div>
+								<div class="result__slide-text">
+									<p class="h4">Звездная улыбка за одно посещение</p>
+									<span>От 20 чашек кофе в день зубы Надежды стали на несколько тонов темнее.</span>
+								</div>
+							</div>
+							<div class="result__slide-photo-wrap">
+								<p>Отбеливание</p>
+								<div class="result__slide-photo">
+									<div>
+										<img src="img/result/teeth-11.jpg" alt="">
+									</div>
+									<div>
+										<img src="img/result/teeth-12.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="result__slide-wrap">
+						<div class="result__slide">
+							<div class="result__slide-about">
+								<div class="result__slide-man">
+									<img src="img/result/man-1.jpg" alt="">
+									<p>Головешко Сергей Андреевич</p>
+									<span>Ортопед-хирург, имплантолог</span>
+								</div>
+								<div class="result__slide-text">
+									<p class="h4">Новые зубы за 1 день</p>
+									<span>Клиент не ходил на свидания, потому что стеснялся своей улыбки.</span>
+								</div>
+							</div>
+							<div class="result__slide-photo-wrap">
+								<p>Имплантация зубов</p>
+								<div class="result__slide-photo">
+									<div>
+										<img src="img/result/teeth-11.jpg" alt="">
+									</div>
+									<div>
+										<img src="img/result/teeth-12.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="result__slide-wrap">
+						<div class="result__slide">
+							<div class="result__slide-about">
+								<div class="result__slide-man">
+									<img src="img/result/man-2.jpg" alt="">
+									<p>Симоненко Максим Александрович</p>
+									<span>Ортопед-хирург, имплантолог</span>
+								</div>
+								<div class="result__slide-text">
+									<p class="h4">Звездная улыбка за одно посещение</p>
+									<span>От 20 чашек кофе в день зубы Надежды стали на несколько тонов темнее.</span>
+								</div>
+							</div>
+							<div class="result__slide-photo-wrap">
+								<p>Отбеливание</p>
+								<div class="result__slide-photo">
+									<div>
+										<img src="img/result/teeth-11.jpg" alt="">
+									</div>
+									<div>
+										<img src="img/result/teeth-12.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="plan-sec def-sec">
+	<div class="container">
+		<div class="plan">
+			<div class="page-title">
+				<p class="h1">Получите индивидуальный план лечения</p>
+			</div>
+			<div class="row">
+				<div class="grid-8">
+					<div class="plan__info">
+						<div class="plan__img">
+							<img src="" alt="">
+						</div>
+						<div class="plan__text">
+							<span></span>
+							<p></p>
+						</div>
+					</div>
+					<div class="plan__info">
+						<div class="plan__img">
+							<img src="" alt="">
+						</div>
+						<div class="plan__text">
+							<span></span>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<div class="grid-4"></div>
 			</div>
 		</div>
 	</div>
