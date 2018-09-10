@@ -2,5 +2,72 @@
 	background: url("../img/plan/bg.jpg") no-repeat center;
 	background-size: cover;
 }
-.plan {}
-.plan {}
+
+.plan__info {
+	display: flex;
+	padding-top: $pad-l;
+	padding-bottom: $pad-xxs;
+	@include res(m) {
+		padding-top: $pad-xs;
+		padding-bottom: $pad-xs;
+	}
+	@include res(s) {
+		padding-top: $pad-xxs;
+		padding-bottom: $pad-xxs;
+	}
+}
+
+.plan__img {
+	max-width: 320px;
+	width: 40%;
+	@include res(s) {
+		width: 35%;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	&--1 {
+		padding-right: $pad-m;
+		@include res(s) {
+			padding-right: $pad-xs;
+			padding-left: $pad-xxs;
+		}
+	}
+}
+
+.plan__text {
+	max-width: 400px;
+	width: 70%;
+	padding-right: $pad-xxs;
+	@include res(s) {
+		width: 75%;
+	}
+	span {
+		display: block;
+		padding-bottom: $pad-xs;
+		color: #ddd1e8;
+		@include res(s) {
+			padding-bottom: $pad-xxs;
+		}
+	}
+	p {
+		font-size: 18px;
+		line-height: (24/18);
+		@include res(l) {
+			font-size: 16px;
+		}
+		@include res(s) {
+			font-size: 14px;
+		}
+	}
+}
+
+.plan__form {
+	padding-top: $pad-xs;
+	@include res(m) {
+		display: flex;
+		justify-content: center;
+	}
+}

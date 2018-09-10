@@ -549,27 +549,151 @@
 				<p class="h1">Получите индивидуальный план лечения</p>
 			</div>
 			<div class="row">
-				<div class="grid-8">
+				<div class="grid-8 grid-7_l grid-12_m">
 					<div class="plan__info">
-						<div class="plan__img">
-							<img src="" alt="">
+						<div class="plan__img plan__img--1">
+							<img src="img/plan/clock.png" alt="">
 						</div>
 						<div class="plan__text">
-							<span></span>
-							<p></p>
+							<span class="h2">24/7</span>
+							<p>Консультируем пациентов круглосуточно. Их вопросы никогда не останутся без ответа с нашей стороны. </p>
 						</div>
 					</div>
 					<div class="plan__info">
-						<div class="plan__img">
-							<img src="" alt="">
+						<div class="plan__img plan__img--2">
+							<img src="img/plan/cup.png" alt="">
 						</div>
 						<div class="plan__text">
-							<span></span>
-							<p></p>
+							<br>
+							<span class="h2">Полный комплекс услуг</span>
+							<p>Предлагаем комплексные решения, чтобы жизнь клиентов как можно скорее вошла в привычное русло. </p>
 						</div>
 					</div>
 				</div>
-				<div class="grid-4"></div>
+				<div class="grid-4 grid-5_l grid-12_m">
+					<div class="plan__form">
+						<div class="form">
+							<div class="form__title">
+								<img src="img/plan/form-man.jpg" alt="">
+								<p>Наши специалисты проконсультируют Вас</p>
+								<span>и расскажут, как можно помочь</span>
+							</div>
+							<form class="ajax-form">
+								<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+								<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+								<button type="submit" class="btn">Записаться</button>
+								<label class="style-check-ios-vert">
+									<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+									<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+								</label>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="service-sec def-sec">
+	<div class="container">
+		<div class="service">
+			<div class="page-title">
+				<p class="h1">Ослепительная улыбка — это просто</p>
+			</div>
+			<div class="service__list">
+				<div class="row">
+					<div class="grid-3 grid-6_s grid-12_xs">
+						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<span class="service__item-img">
+							<img src="img/service/item-prev-1.jpg" alt="">
+							<span>подробнее <i class="i-right-arrow"></i></span>
+						</span>
+							<span class="service__item-title"><span>Имплантация зубов и&nbsp;хирургия</span></span>
+						</a>
+
+						<div class="service__item-more" id="service-item-1"></div>
+					</div>
+					<div class="grid-3 grid-6_s grid-12_xs">
+						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<span class="service__item-img">
+							<img src="img/service/item-prev-2.jpg" alt="">
+							<span>подробнее <i class="i-right-arrow"></i></span>
+						</span>
+							<span class="service__item-title"><span>Исправление прикуса</span></span>
+						</a>
+
+						<div class="service__item-more" id="service-item-1"></div>
+					</div>
+					<div class="grid-3 grid-6_s grid-12_xs">
+						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<span class="service__item-img">
+							<img src="img/service/item-prev-3.jpg" alt="">
+							<span>подробнее <i class="i-right-arrow"></i></span>
+						</span>
+							<span class="service__item-title"><span>Комплексная гигиена полости рта</span></span>
+						</a>
+
+						<div class="service__item-more" id="service-item-1"></div>
+					</div>
+					<div class="grid-3 grid-6_s grid-12_xs">
+						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<span class="service__item-img">
+							<img src="img/service/item-prev-4.jpg" alt="">
+							<span>подробнее <i class="i-right-arrow"></i></span>
+						</span>
+							<span class="service__item-title"><span>Лечение и диагностика под микроскопом Carl Zeiss</span></span>
+						</a>
+
+						<div class="service__item-more" id="service-item-1"></div>
+					</div>
+
+					<div class="grid-3 grid-6_s grid-12_xs">
+						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<span class="service__item-img">
+							<img src="img/service/item-prev-5.jpg" alt="">
+							<span>подробнее <i class="i-right-arrow"></i></span>
+						</span>
+							<span class="service__item-title"><span>Детская стоматология</span></span>
+						</a>
+
+						<div class="service__item-more" id="service-item-1"></div>
+					</div>
+					<div class="grid-3 grid-6_s grid-12_xs">
+						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<span class="service__item-img">
+							<img src="img/service/item-prev-6.jpg" alt="">
+							<span>подробнее <i class="i-right-arrow"></i></span>
+						</span>
+							<span class="service__item-title"><span>Профессиональное отбеливание зубов</span></span>
+						</a>
+
+						<div class="service__item-more" id="service-item-1"></div>
+					</div>
+					<div class="grid-3 grid-6_s grid-12_xs">
+						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<span class="service__item-img">
+							<img src="img/service/item-prev-7.jpg" alt="">
+							<span>подробнее <i class="i-right-arrow"></i></span>
+						</span>
+							<span class="service__item-title"><span>Виниры</span></span>
+						</a>
+
+						<div class="service__item-more" id="service-item-1"></div>
+					</div>
+					<div class="grid-3 grid-6_s grid-12_xs">
+						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<span class="service__item-img">
+							<img src="img/service/item-prev-8.jpg" alt="">
+							<span>подробнее <i class="i-right-arrow"></i></span>
+						</span>
+							<span class="service__item-title"><span>Компьютерная томография</span></span>
+						</a>
+
+						<div class="service__item-more" id="service-item-1"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
