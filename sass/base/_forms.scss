@@ -40,6 +40,13 @@ button {
 		background: #fff;
 		z-index: 0;
 	}
+
+	&--clear {
+		margin-top: 0;
+		&:before, &:after {
+			content: none;
+		}
+	}
 }
 
 .form__title {

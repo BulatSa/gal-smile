@@ -94,6 +94,34 @@ h4, .h4 {
 			padding-bottom: 0;
 		}
 	}
+	ul {
+		padding-bottom: 0.6em;
+		list-style: none;
+		&:last-child {
+			padding-bottom: 0;
+		}
+		li {
+			position: relative;
+			padding-left: $pad-xs;
+			@include res(s) {
+				padding-left: 15px;
+			}
+			&:before {
+				content: '';
+				position: absolute;
+				top: 10px;
+				left: 0;
+				width: 7px;
+				height: 7px;
+				border-radius: 50%;
+				background: $yellow;
+				@include res(s) {
+					width: 6px;
+					height: 6px;
+				}
+			}
+		}
+	}
 }
 
 .page-title {

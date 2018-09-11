@@ -365,3 +365,40 @@ $(function($){
 /***********************
 Result Nav END
 ***********************/
+
+
+/***********************
+Preims BEGIN
+***********************/
+$(function($){
+	$('.benefits__slider').flickity({
+		pageDots: false,
+		contain: true,
+		adaptiveHeight: true,
+		arrowShape: {
+			x0: 25,
+			x1: 60, y1: 35,
+			x2: 70, y2: 35,
+			x3: 35
+		}
+	});
+});
+/***********************
+Preims END
+***********************/
+
+
+/***********************
+ Steps Slider BEGIN
+ ***********************/
+$(function($){
+	$('.steps__slider').flickity({
+		pageDots: false,
+		contain: true,
+		adaptiveHeight: true,
+		prevNextButtons: false
+	});
+});
+/***********************
+ Steps Slider END
+ ***********************/

@@ -1,0 +1,81 @@
+.steps-sec {
+
+}
+
+.steps {
+	position: relative;
+}
+
+.steps__title {
+	position: absolute;
+	top: 80px;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	text-align: center;
+	@include res(xl) {
+		top: 60px;
+	}
+	@include res(m) {
+		text-align: center;
+	}
+}
+
+.steps__title-descr {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+	color: #a6a6a6;
+}
+
+.steps__numbs {
+	margin: $pad-s auto;
+}
+
+.steps__slider {}
+
+.steps__slide {
+	width: 100%;
+	padding-top: 400px;
+	padding-bottom: 40px;
+	min-height: 1058px;
+	background: #efedef;
+	background-repeat: no-repeat;
+	background-position: center center;
+	@include res(xl) {
+		min-height: 800px;
+		padding-top: 250px;
+		background-position: center bottom;
+		background-size: contain;
+	}
+	@include res(l) {
+		min-height: 680px;
+	}
+	@include res(m) {
+		min-height: initial;
+		padding-top: 220px;
+		background: #efedef!important;
+	}
+}
+
+.steps__slide-info {
+	max-width: 280px;
+	@include res(m) {
+		max-width: 100%;
+		padding: $pad-xs $pad-xs;
+		border-radius: 10px;
+		background: #fff;
+	}
+	.h4 {
+		color: $blue;
+	}
+}
+
+.steps__slide-title {
+	padding-bottom: 15px;
+	color: #fff;
+	@include res(m) {
+		color: #a6a6a6;
+	}
+}
+

@@ -612,11 +612,39 @@
 						</span>
 							<span class="service__item-title"><span>Имплантация зубов и&nbsp;хирургия</span></span>
 						</a>
-
-						<div class="service__item-more" id="service-item-1"></div>
+						<div class="modal" id="service-item-1">
+							<div class="service__item-more">
+								<div class="service__item-more-info">
+									<p class="service__item-more-title">Имплантация зубов и хирургия</p>
+									<div class="user-content">
+										<p>Импланты позволят врачу осуществить протезирование без препарирования соседних зубов. Ими можно замещать дефекты зубного ряда любой сложности и локализации. В нашей клинике мы используем высококачественные материалы, которые помогут ускорить приживление имплантов.</p>
+									</div>
+								</div>
+								<div class="service__item-more-form">
+									<div class="form form--clear">
+										<div class="form__title">
+											<p>Записаться на прием</p>
+										</div>
+										<form class="ajax-form">
+											<input type="hidden" value="Заявка Услуги - Имплантация зубов и хирургия" name="form_subject">
+											<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+											<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон" class="input-text" data-req="true">
+											<button type="submit" class="btn">Записаться</button>
+											<label class="style-check-ios-vert">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и с <a href="#" target="_blank">политикой конфиденциальности</a></span>
+											</label>
+										</form>
+									</div>
+									<div class="service__item-more-img">
+										<img src="img/service/item-full-1.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="grid-3 grid-6_s grid-12_xs">
-						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<a href="#" class="service__item fancy" data-src="#service-item-2">
 						<span class="service__item-img">
 							<img src="img/service/item-prev-2.jpg" alt="">
 							<span>подробнее <i class="i-right-arrow"></i></span>
@@ -624,10 +652,38 @@
 							<span class="service__item-title"><span>Исправление прикуса</span></span>
 						</a>
 
-						<div class="service__item-more" id="service-item-1"></div>
+						<div class="modal" id="service-item-2">
+							<div class="service__item-more">
+								<div class="service__item-more-info">
+									<p class="service__item-more-title">Исправление прикуса</p>
+									<div class="user-content">
+										<p>Самым распространенным способом коррекции положения зубов является брекет-система.  Можно ставить детям и у взрослым. Брекет-система бывает видимая и невидимая. Срок лечения в простых ситуация может занимать всего 6-8 месяцев.</p>
+									</div>
+								</div>
+								<div class="service__item-more-form">
+									<div class="form form--clear">
+										<div class="form__title">
+											<p>Записаться на прием</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+											<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<button type="submit" class="btn">Записаться</button>
+											<label class="style-check-ios-vert">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и с <a href="#" target="_blank">политикой конфиденциальности</a></span>
+											</label>
+										</form>
+									</div>
+									<div class="service__item-more-img">
+										<img src="img/service/item-full-2.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="grid-3 grid-6_s grid-12_xs">
-						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<a href="#" class="service__item fancy" data-src="#service-item-3">
 						<span class="service__item-img">
 							<img src="img/service/item-prev-3.jpg" alt="">
 							<span>подробнее <i class="i-right-arrow"></i></span>
@@ -635,10 +691,45 @@
 							<span class="service__item-title"><span>Комплексная гигиена полости рта</span></span>
 						</a>
 
-						<div class="service__item-more" id="service-item-1"></div>
+						<div class="modal" id="service-item-3">
+							<div class="service__item-more">
+								<div class="service__item-more-info">
+									<p class="service__item-more-title">Комплексная гигиена полости рта</p>
+									<div class="user-content">
+										<p>Профессиональная гигиена является важной составляющей здоровья ваших зубов. Это своего рода СПА для полости рта. Чистка зубов позволяет:</p>
+										<ul>
+											<li>умножить срок службы керамических и композитных реставраций более чем в 2 раза;</li>
+											<li>предотвратить заболевания десен, таких как гингивит и пародонтит;</li>
+											<li>во время профессиональной гигиены происходит осмотр всех зубов, что позволяет выявить и устранить проблемы на ранней стадии;</li>
+											<li>и наконец, гигиеническая чистка осветляет Ваши зубки и делает улыбку привлекательной. </li>
+										</ul>
+										<p>Проводится раз в 6 месяцев с помощью специального аппарата Sonicflex и безопасного порошка с глицином AirFlow.</p>
+									</div>
+								</div>
+								<div class="service__item-more-form">
+									<div class="form form--clear">
+										<div class="form__title">
+											<p>Записаться на прием</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+											<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<button type="submit" class="btn">Записаться</button>
+											<label class="style-check-ios-vert">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и с <a href="#" target="_blank">политикой конфиденциальности</a></span>
+											</label>
+										</form>
+									</div>
+									<div class="service__item-more-img">
+										<img src="img/service/item-full-3.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="grid-3 grid-6_s grid-12_xs">
-						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<a href="#" class="service__item fancy" data-src="#service-item-4">
 						<span class="service__item-img">
 							<img src="img/service/item-prev-4.jpg" alt="">
 							<span>подробнее <i class="i-right-arrow"></i></span>
@@ -646,11 +737,39 @@
 							<span class="service__item-title"><span>Лечение и диагностика под микроскопом Carl Zeiss</span></span>
 						</a>
 
-						<div class="service__item-more" id="service-item-1"></div>
+						<div class="modal" id="service-item-4">
+							<div class="service__item-more">
+								<div class="service__item-more-info">
+									<p class="service__item-more-title">Лечение и диагностика под микроскопом Carl Zeiss</p>
+									<div class="user-content">
+										<p>Все лечение каналов и кист мы 100% проводим с использованием микроскопов Carl Zeiss. Мы не берем за это дополнительную плату. С помощью микроскопа мы не пропускаем каналы, которые в последствии становятся причиной появления воспаления на корнях и кист. Мы видим скрытые кариесы, которые если не лечить переходят в пульпиты. Дополнительное увеличение и оптика - это стандарт без которого мы не работаем.</p>
+									</div>
+								</div>
+								<div class="service__item-more-form">
+									<div class="form form--clear">
+										<div class="form__title">
+											<p>Записаться на прием</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+											<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<button type="submit" class="btn">Записаться</button>
+											<label class="style-check-ios-vert">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и с <a href="#" target="_blank">политикой конфиденциальности</a></span>
+											</label>
+										</form>
+									</div>
+									<div class="service__item-more-img">
+										<img src="img/service/item-full-4.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<div class="grid-3 grid-6_s grid-12_xs">
-						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<a href="#" class="service__item fancy" data-src="#service-item-5">
 						<span class="service__item-img">
 							<img src="img/service/item-prev-5.jpg" alt="">
 							<span>подробнее <i class="i-right-arrow"></i></span>
@@ -658,10 +777,38 @@
 							<span class="service__item-title"><span>Детская стоматология</span></span>
 						</a>
 
-						<div class="service__item-more" id="service-item-1"></div>
+						<div class="modal" id="service-item-5">
+							<div class="service__item-more">
+								<div class="service__item-more-info">
+									<p class="service__item-more-title">Детская стоматология</p>
+									<div class="user-content">
+										<p>Почистим и вылечим детские зубы. Удалим при необходимости. Сделаем герметизацию постоянных зубов. Подарим подарок. Обучим гигенической грамоте в игровой форме. Сейчас - самое подходящее время для знакомства.</p>
+									</div>
+								</div>
+								<div class="service__item-more-form">
+									<div class="form form--clear">
+										<div class="form__title">
+											<p>Записаться на прием</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+											<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<button type="submit" class="btn">Записаться</button>
+											<label class="style-check-ios-vert">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и с <a href="#" target="_blank">политикой конфиденциальности</a></span>
+											</label>
+										</form>
+									</div>
+									<div class="service__item-more-img">
+										<img src="img/service/item-full-5.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="grid-3 grid-6_s grid-12_xs">
-						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<a href="#" class="service__item fancy" data-src="#service-item-6">
 						<span class="service__item-img">
 							<img src="img/service/item-prev-6.jpg" alt="">
 							<span>подробнее <i class="i-right-arrow"></i></span>
@@ -669,10 +816,38 @@
 							<span class="service__item-title"><span>Профессиональное отбеливание зубов</span></span>
 						</a>
 
-						<div class="service__item-more" id="service-item-1"></div>
+						<div class="modal" id="service-item-6">
+							<div class="service__item-more">
+								<div class="service__item-more-info">
+									<p class="service__item-more-title">Профессиональное отбеливание зубов</p>
+									<div class="user-content">
+										<p>Отбеливание зубов - это косметическая процедура, которая позволяет безопасно осветлить зубы с помощью специальных гелей до 12. тонов. Это можно сделать профессионально за 1 визит, получив эффект сразу. Или с помощью домашнего отбеливания в течение недели. Капы мы изготовим индивидуально по слепку с зубов, а гелей для отбеливания дадим с запасом на несколько месяцев.</p>
+									</div>
+								</div>
+								<div class="service__item-more-form">
+									<div class="form form--clear">
+										<div class="form__title">
+											<p>Записаться на прием</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+											<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<button type="submit" class="btn">Записаться</button>
+											<label class="style-check-ios-vert">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и с <a href="#" target="_blank">политикой конфиденциальности</a></span>
+											</label>
+										</form>
+									</div>
+									<div class="service__item-more-img">
+										<img src="img/service/item-full-6.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="grid-3 grid-6_s grid-12_xs">
-						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<a href="#" class="service__item fancy" data-src="#service-item-7">
 						<span class="service__item-img">
 							<img src="img/service/item-prev-7.jpg" alt="">
 							<span>подробнее <i class="i-right-arrow"></i></span>
@@ -680,10 +855,38 @@
 							<span class="service__item-title"><span>Виниры</span></span>
 						</a>
 
-						<div class="service__item-more" id="service-item-1"></div>
+						<div class="modal" id="service-item-7">
+							<div class="service__item-more">
+								<div class="service__item-more-info">
+									<p class="service__item-more-title">Виниры</p>
+									<div class="user-content">
+										<p>Виниры - это тонкие или ультратонкие керамические накладки на свои собственные зубы. Толщина виниров примерно 0,3-0,5мм, что примерно в 4 раза меньше толщины металло-керамической коронки. Такая толщина позволяет не обтачивать, либо практически не обтачивать зуб. Таким образом зуб остается живым, не требует депульпирования. Это увеличивает срок службы зуба с виниром в несколько раз. Винирами можно быстро и надежно изменить цвет, форму, размеры и пропорции зубов. Виниры  — один из самых надежных и эстетичных способов восстановить зубы и улучшить улыбку. если вы слышали о голливудской улыбке, то это тоже виниры</p>
+									</div>
+								</div>
+								<div class="service__item-more-form">
+									<div class="form form--clear">
+										<div class="form__title">
+											<p>Записаться на прием</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+											<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<button type="submit" class="btn">Записаться</button>
+											<label class="style-check-ios-vert">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и с <a href="#" target="_blank">политикой конфиденциальности</a></span>
+											</label>
+										</form>
+									</div>
+									<div class="service__item-more-img">
+										<img src="img/service/item-full-7.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="grid-3 grid-6_s grid-12_xs">
-						<a href="#" class="service__item fancy" data-src="#service-item-1">
+						<a href="#" class="service__item fancy" data-src="#service-item-8">
 						<span class="service__item-img">
 							<img src="img/service/item-prev-8.jpg" alt="">
 							<span>подробнее <i class="i-right-arrow"></i></span>
@@ -691,12 +894,250 @@
 							<span class="service__item-title"><span>Компьютерная томография</span></span>
 						</a>
 
-						<div class="service__item-more" id="service-item-1"></div>
+						<div class="modal" id="service-item-8">
+							<div class="service__item-more">
+								<div class="service__item-more-info">
+									<p class="service__item-more-title">Компьютерная томография</p>
+									<div class="user-content">
+										<p>Компьютерная томограмма - 3D  снимок зубов. Обязательная диагностика перед имплантацией и лечением каналов. Увидим дополнительные каналы, толщину костной ткани и состояние гаймеровых пазух. Делаем прямо в клинике и записываем исследование на диск. Стоимость 2600р.</p>
+									</div>
+								</div>
+								<div class="service__item-more-form">
+									<div class="form form--clear">
+										<div class="form__title">
+											<p>Записаться на прием</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+											<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<button type="submit" class="btn">Записаться</button>
+											<label class="style-check-ios-vert">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и с <a href="#" target="_blank">политикой конфиденциальности</a></span>
+											</label>
+										</form>
+									</div>
+									<div class="service__item-more-img">
+										<img src="img/service/item-full-8.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+
+<section class="price-sec def-sec">
+	<div class="container">
+		<div class="price">
+			<div class="page-title">
+				<p class="h1">Высокое качество, доступные цены</p>
+			</div>
+			<div class="price__list">
+				<div class="price__item">
+					<div class="price__item-info">
+						<div class="price__item-title">
+							<div>
+								<i class="i-tooth-loope"></i>
+							</div>
+							<span>Профессиональная гигиена</span>
+						</div>
+						<div class="user-content">
+							<p>Профессиональная гигиена сохранит ваши зубы здоровыми и крепкими. В нашей клинике мы проводим чистку аппаратом Sonicflex и методом AirFlow перед любым стоматологическим лечением: терапевтическим, ортопедическим, ортодонтическим или хирургическим.</p>
+						</div>
+					</div>
+					<div class="price__item-numb">
+						<p class="h3">3 500-5 000 р</p>
+					</div>
+				</div>
+				<div class="price__item">
+					<div class="price__item-info">
+						<div class="price__item-title">
+							<div>
+								<i class="i-tooth-hole"></i>
+							</div>
+							<span>Лечение кариеса</span>
+						</div>
+						<div class="user-content">
+							<p>Для лечении кариеса наши специалисты применяют широкий спектр современных материалов, а также комплекс уникального оборудования и инструментов, в том числе, и микроскопы Carl Zeiss, что позволяет решать самые сложные стоматологические задачи.</p>
+						</div>
+					</div>
+					<div class="price__item-numb">
+						<p class="h3">3 900-7 100 р</p>
+					</div>
+				</div>
+				<div class="price__item">
+					<div class="price__item-info">
+						<div class="price__item-title">
+							<div>
+								<i class="i-toothbrush"></i>
+							</div>
+							<span>Профессиональное и домашнее отбеливание</span>
+						</div>
+						<div class="user-content">
+							<p>В нашей клинике нашей специальные гели для отбеливания. Благодаря специальным добавкам в отбеливающем геле во время процедуры создается защитный барьер для эмали зуба, а эмаль светлеет до 12 тонов.</p>
+						</div>
+					</div>
+					<div class="price__item-numb">
+						<p class="h3">15 900 р</p>
+					</div>
+				</div>
+			</div>
+			<div class="price__btn">
+				<a href="#" class="btn" target="_blank">Посмотреть  прайс-лист</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="benefits-sec">
+	<div class="benefits">
+		<div class="container benefits__title">
+			<div class="h1">Преимущества<br>очевидны</div>
+		</div>
+		<div class="benefits__slider">
+			<div class="benefits__slide" style="background-image:url(/img/benefits/1.jpg);">
+				<div class="container">
+					<div class="benefits__info">
+						<img src="img/benefits/flower.jpg" alt="" class="benefits__img">
+						<div class="benefits__text user-content">
+							<p class="h4">Комплексное обследование</p>
+							<p>В нашей клинике полностью замкнутый цикл работы: все исследования и процедуры до начала лечения мы проводим самостоятельно. Для этого в клинике есть все необходимое, включая инновационное оборудование и технику.  </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="benefits__slide" style="background-image:url(/img/benefits/2.jpg);">
+				<div class="container">
+					<div class="benefits__info">
+						<img src="img/benefits/flower.jpg" alt="" class="benefits__img">
+						<div class="benefits__text user-content">
+							<p class="h4">Современное оборудование</p>
+							<p>Наша клиника оснащена современным профессиональным оборудованием и материалами. С их помощью мы сохраняем здоровье своим пациентам и дарим им красивые улыбки. Компьютерный томограф - 3D снимки. В 1 визит планируем имплантацию и  протезирование.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="benefits__slide" style="background-image:url(/img/benefits/3.jpg);">
+				<div class="container">
+					<div class="benefits__info">
+						<img src="img/benefits/flower.jpg" alt="" class="benefits__img">
+						<div class="benefits__text user-content">
+							<p class="h4">Помощь даже в сложных случаях</p>
+							<p>Мы ставим цель не заработать, а действительно помочь людям. К нам обращаются после неудачного лечения или в особо сложных случаях — и остаются довольны. Лечение каналов зубов и кист проходит 100% с использованием микроскопов Carl Zeiss</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="benefits__slide" style="background-image:url(/img/benefits/4.jpg);">
+				<div class="container">
+					<div class="benefits__info">
+						<img src="img/benefits/flower.jpg" alt="" class="benefits__img">
+						<div class="benefits__text user-content">
+							<p class="h4">Гаратия качества</p>
+							<p>В течение 5 лет пациенты могут обратиться в клинику для бесплатного комплексного обследования или повторного бесплатного лечения.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="benefits__slide" style="background-image:url(/img/benefits/5.jpg);">
+				<div class="container">
+					<div class="benefits__info">
+						<img src="img/benefits/flower.jpg" alt="" class="benefits__img">
+						<div class="benefits__text user-content">
+							<p class="h4">Индивидуальные программы лечения</p>
+							<p>Для каждого пациента, обратившегося в клинику, составляем индивидуальный план лечения и подбираем работающее решение, которое подарит ему здоровую и красивую улыбку.   Финансовый план фиксируется в начале лечения и не меняется. Включает все необходимое «под ключ».</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="benefits__slide" style="background-image:url(/img/benefits/6.jpg);">
+				<div class="container">
+					<div class="benefits__info">
+						<img src="img/benefits/flower.jpg" alt="" class="benefits__img">
+						<div class="benefits__text user-content">
+							<p class="h4">Забота о пациентах</p>
+							<p>Мы находимся на связи 24/7. Клиентам из других городов предоставляем бесплатный трансфер до клиники и обратно на все время лечения.  Все лечение контролирует Главный врач.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<div class="steps-sec">
+	<div class="steps">
+		<div class="steps__title container">
+			<p class="h1">5 шагов к идеальной улыбке</p>
+			<div class="steps__numbs"></div>
+			<div class="steps__title-descr">Ознакомьтесь подробнее с каждым этапом</div>
+		</div>
+		<div class="steps__slider">
+			<div class="steps__slide" style="background-image: url(/img/steps/slide-1.jpg)">
+				<div class="container">
+					<div class="steps__slide-info">
+						<p class="steps__slide-title h2">Этап 1</p>
+						<div class="user-content">
+							<p class="h4">Первичная консультация </p>
+							<p>Перед началом лечения сделаем снимки и компьютерную томограмму, чтобы выработать оптимальный план лечения. Отправим на ваш  e-mail несколько вариантов решения проблемы с объяснением специалиста и карту-путеводитель, по которой постепенно будем продвигаться к красивой улыбке. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="steps__slide" style="background-image: url(/img/steps/slide-2.jpg)">
+				<div class="container">
+					<div class="steps__slide-info">
+						<p class="steps__slide-title h2">Этап 2</p>
+						<div class="user-content">
+							<p class="h4">Терапевтическое лечение</p>
+							<p>Вылечим кариес, кисты, пульпиты и периодонтоты с использованием дентального микроскопа. Проведем профессиональную гигиену полости рта и при необходимости отбелим зубы на несколько тонов.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="steps__slide" style="background-image: url(/img/steps/slide-3.jpg)">
+				<div class="container">
+					<div class="steps__slide-info">
+						<p class="steps__slide-title h2">Этап 3</p>
+						<div class="user-content">
+							<p class="h4">Хирургическое лечение</p>
+							<p>Стоматолог удалит нежизнеспособные зубы и корни, чтобы установить импанты. Он проведет костную и десневую пластику, чтобы подготовить полость рта к реставрации.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="steps__slide" style="background-image: url(/img/steps/slide-4.jpg)">
+				<div class="container">
+					<div class="steps__slide-info">
+						<p class="steps__slide-title h2">Этап 4</p>
+						<div class="user-content">
+							<p class="h4">Протезирование зубов</p>
+							<p>Проведем окончательне восстановление зубов и улыбки. Вместе определим форму зубов, цвет и прозрачность, которая подойдет для вашего случая.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="steps__slide" style="background-image: url(/img/steps/slide-5.jpg)">
+				<div class="container">
+					<div class="steps__slide-info">
+						<p class="steps__slide-title h2">Этап 5</p>
+						<div class="user-content">
+							<p class="h4">Контрольные осмотры</p>
+							<p>Каждые 6 месяцев будем проводить бесплатные контрольные осмотры и гигиену полости рта. Профессиональный уход поможет максимально продлить срок службы новых зубов.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <?php include('footer.php'); ?>

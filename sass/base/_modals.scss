@@ -1,9 +1,14 @@
 .modal {
 	display: none;
-	width: 500px;
+	//width: 500px;
 	max-width: 100%;
+	padding: 0;
 	will-change: transform, opacity;
 	overflow: visible !important;
+}
+
+.fancybox-content {
+	border-radius: 10px;
 }
 
 .fancybox-slide--current {

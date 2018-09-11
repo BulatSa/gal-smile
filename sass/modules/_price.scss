@@ -1,0 +1,110 @@
+.price-sec {
+	background: url("../img/price/bg.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.price {}
+
+.price__list {
+	box-shadow: 0 0 10px 0 transparentize(#000,0.8);
+	border-radius: 10px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.price__item {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 5px;
+	padding: $pad-s $pad-xl;
+	//border-radius: 0 0 10px 10px;
+	box-shadow: 0 2px 6px -3px transparentize(#000,0.75);
+	background: #fff;
+	@include res(l) {
+		padding: $pad-s $pad-s;
+	}
+	@include res(s) {
+		padding: $pad-xs $pad-xs;
+	}
+	&:last-child {
+		margin-bottom: 0;
+		box-shadow: none;
+	}
+}
+
+.price__item-info {
+	width: 75%;
+	padding-right: $pad-m;
+	@include res(l) {
+		padding-right: $pad-s;
+	}
+	@include res(m) {
+		width: 70%;
+	}
+	@include res(s) {
+		width: 100%;
+	}
+}
+
+.price__item-title {
+	display: flex;
+	align-items: center;
+	padding-bottom: $pad-xxs;
+	color: $blue;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+	font-weight: 500;
+	text-transform: uppercase;
+	@include res(s) {
+		font-size: 14px;
+	}
+	.i-tooth-loope {
+		font-size: 40px;
+		@include res(s) {
+			font-size: 35px;
+		}
+	}
+	.i-tooth-hole {
+		font-size: 35px;
+		@include res(s) {
+			font-size: 30px;
+		}
+	}
+	.i-toothbrush {
+		font-size: 40px;
+		@include res(s) {
+			font-size: 35px;
+		}
+	}
+	div {
+		width: 60px;
+		flex-shrink: 0;
+		@include res(s) {
+			width: 50px;
+		}
+	}
+}
+
+.price__item-numb {
+	width: 25%;
+	padding-left: $pad-m;
+	color: $blue;
+	white-space: nowrap;
+	@include res(l) {
+		padding-left: $pad-xs;
+	}
+	@include res(m) {
+		width: 30%;
+	}
+	@include res(s) {
+		width: 100%;
+		padding-top: $pad-xs;
+		padding-left: 0;
+	}
+}
+
+.price__btn {
+	padding-top: $pad-m;
+	text-align: center;
+}

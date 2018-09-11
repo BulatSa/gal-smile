@@ -58,7 +58,7 @@
 		text-align: center;
 		color: #fff;
 		opacity: 0;
-		background: transparentize(#000,0.85);
+		background: transparentize(#000,0.9);
 		transition: all 0.3s ease;
 		transform: translate3d(-50%,-50%,0);
 		i {
@@ -96,4 +96,66 @@
 	}
 }
 
-.service__item-more {}
+.service__item-more {
+	max-width: 840px;
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.service__item-more-info {
+	padding: $pad-s $pad-s $pad-s;
+	box-shadow: 0 2px 10px 0 transparentize(#000, 0.9);
+	@include res(s) {
+		padding: $pad-s $pad-xs $pad-xs;
+	}
+}
+
+.service__item-more-title {
+	padding-bottom: $pad-xxs;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: $blue;
+	@include res(l) {
+		font-size: 20px;
+	}
+	@include res(s) {
+		font-size: 18px;
+	}
+}
+
+.service__item-more-form {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: $pad-m;
+	@include res(xs) {
+		justify-content: center;
+		padding-top: $pad-xs;
+	}
+	.form {
+		width: 50%;
+		@include res(xs) {
+			width: 100%;
+		}
+	}
+}
+
+.service__item-more-img {
+	width: 50%;
+	padding: $pad-xxs $pad-s $pad-s;
+	@include res(s) {
+		padding: $pad-xxs $pad-xs $pad-s;
+	}
+	@include res(xs) {
+		display: none;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+		border-radius: 10px;
+	}
+}
