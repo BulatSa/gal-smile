@@ -413,3 +413,67 @@ $(function($){
 /***********************
  Steps Slider END
  ***********************/
+
+
+/***********************
+ Steps Slider BEGIN
+ ***********************/
+$(function($){
+	var reviewsSlider = $('.reviews__slider');
+	reviewsSlider.flickity({
+		pageDots: false,
+		//contain: true,
+		//wrapAround: true,
+		adaptiveHeight: true,
+		arrowShape: {
+			x0: 25,
+			x1: 60, y1: 35,
+			x2: 70, y2: 35,
+			x3: 35
+		}
+	});
+
+	var flkty = reviewsSlider.data('flickity');
+
+	if($(window).width() > 680) {
+		reviewsSlider.flickity( 'select', 2 );
+		$('.reviews__slide').eq(0).addClass('first');
+		$('.reviews__slide').eq(1).addClass('prev');
+		$('.reviews__slide').eq(3).addClass('next');
+		$('.reviews__slide').eq(4).addClass('last');
+	}
+
+	reviewsSlider.on( 'select.flickity', function() {
+		var index = flkty.selectedIndex;
+		var thisSlide = $('.reviews__slide.is-selected');
+		var slide = $('.reviews__slide');
+		if(index == 0) {
+			// 1 slide active
+			thisSlide.removeClass('prev next last first');
+			slide.removeClass('prev next last first');
+			thisSlide.next('.reviews__slide').addClass('next');
+			slide.last().addClass('prev');
+			slide.eq(2).addClass('last');
+			slide.eq(slide.length - 2).addClass('first');
+		} else if (index == slide.length - 1) {
+			// last slide
+			thisSlide.removeClass('prev next last first');
+			slide.removeClass('prev next last first');
+			thisSlide.prev('.reviews__slide').addClass('prev');
+			slide.first().addClass('next');
+			slide.eq(index - 2).addClass('first');
+			slide.eq(1).addClass('last');
+			console.log('last slide active');
+		} else {
+			thisSlide.removeClass('prev next last first');
+			slide.removeClass('prev next last first');
+			thisSlide.prev('.reviews__slide').addClass('prev');
+			thisSlide.next('.reviews__slide').addClass('next');
+			slide.eq( index + 2).addClass('last');
+			slide.eq( index - 2).addClass('first');
+		}
+	});
+});
+/***********************
+ Steps Slider END
+ ***********************/

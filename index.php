@@ -1139,4 +1139,54 @@
 	</div>
 </div>
 
+
+<section class="reviews-sec def-sec">
+	<div class="container">
+		<div class="reviews">
+			<div class="page-title">
+				<p class="h1">Наша галерея улыбок</p>
+			</div>
+			<div class="reviews__link">
+				<a href="#" target="_blank"><span>Еще больше отзывов в нашем instagram</span>&nbsp;<i class="i-right-arrow"></i></a>
+			</div>
+			<div class="reviews__slider">
+				<div class="reviews__slide">
+					<div class="reviews__slide-img">
+						<img src="img/reviews/slide-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="reviews__slide">
+					<div class="reviews__slide-img">
+						<img src="img/reviews/slide-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="reviews__slide">
+					<div class="reviews__slide-img">
+						<img src="img/reviews/slide-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="reviews__slide">
+					<div class="reviews__slide-img">
+						<img src="img/reviews/slide-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="reviews__slide">
+					<div class="reviews__slide-img">
+						<img src="img/reviews/slide-1.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="reviews__slide">
+					<div class="reviews__slide-img">
+						<img src="img/reviews/slide-1.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="reviews__btn">
+				<a href="#" class="btn fancy" data-src="modal-order">Я хочу так же</a>
+			</div>
+		</div>
+	</div>
+</section>
+
 <?php include('footer.php'); ?>

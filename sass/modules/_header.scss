@@ -35,7 +35,7 @@
 
 .hamburger {
 	display: none!important;
-	z-index: 6;
+	z-index: 16;
 	@include res(l) {
 		position: fixed;
 		top: 4px;
@@ -159,7 +159,7 @@
 	visibility: hidden;
 	transition: all 0.3s ease;
 	transform: translate3d(-100%,0,0);
-	z-index: 5;
+	z-index: 15;
 	img {
 		display: block;
 		margin: 0 auto $pad-xs;
