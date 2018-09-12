@@ -392,11 +392,22 @@ Preims END
  Steps Slider BEGIN
  ***********************/
 $(function($){
-	$('.steps__slider').flickity({
-		pageDots: false,
+	var stepsSlider = $('.steps__slider');
+	stepsSlider.flickity({
+		//pageDots: false,
 		contain: true,
 		adaptiveHeight: true,
 		prevNextButtons: false
+	});
+
+	var flkty = stepsSlider.data('flickity');
+	var stepsDots = $('.steps__slider .dot');
+
+	stepsSlider.on( 'select.flickity', function() {
+		var index = flkty.selectedIndex;
+		var this_dot = stepsDots.eq(index);
+		this_dot.prevAll('.dot').addClass('active');
+		this_dot.nextAll('.dot').removeClass('active');
 	});
 });
 /***********************

@@ -1077,7 +1077,6 @@
 	<div class="steps">
 		<div class="steps__title container">
 			<p class="h1">5 шагов к идеальной улыбке</p>
-			<div class="steps__numbs"></div>
 			<div class="steps__title-descr">Ознакомьтесь подробнее с каждым этапом</div>
 		</div>
 		<div class="steps__slider">
