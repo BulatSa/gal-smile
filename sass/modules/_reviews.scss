@@ -64,7 +64,7 @@
 			left: calc(50% - 185px);
 		}
 		@include res(s) {
-			left: 0;
+			left: 10px;
 		}
 	}
 	.flickity-prev-next-button.next {
@@ -73,7 +73,7 @@
 			right: calc(50% - 185px);
 		}
 		@include res(s) {
-			right: 0;
+			right: 10px;
 		}
 	}
 }
@@ -82,7 +82,8 @@
 	position: relative;
 	width: calc(100% / 5);
 	padding: 15px 15px;
-	transform: scale(0.8) translate3d(0,0,0);
+	transform: scale(0.25) translate3d(0,0,0);
+	opacity: 0;
 	transition: transform 0.3s ease, opacity 0.3s ease, background 0.3s ease;
 	border-radius: 45px;
 	@include res(l) {
@@ -109,6 +110,7 @@
 		}
 	}
 	&.is-selected {
+		opacity: 1;
 		background: #fff;
 		transform: scale(1) translate3d(0,0,0);
 		transform-origin: 50% 50%;
@@ -126,6 +128,7 @@
 		}
 	}
 	&.prev {
+		opacity: 1;
 		transform: scale(0.9) translate3d(30px,0,0);
 		transform-origin: 100% 50%;
 		z-index: 1;
@@ -134,6 +137,7 @@
 		}
 	}
 	&.next {
+		opacity: 1;
 		transform: scale(0.9) translate3d(-30px,0,0);
 		transform-origin: 0% 50%;
 		z-index: 1;
@@ -142,6 +146,7 @@
 		}
 	}
 	&.first {
+		opacity: 1;
 		transform: scale(0.8) translate3d(140px,0,0);
 		z-index: 0;
 		@include res(l) {
@@ -149,6 +154,7 @@
 		}
 	}
 	&.last {
+		opacity: 1;
 		transform: scale(0.8) translate3d(-140px,0,0);
 		z-index: 0;
 		@include res(l) {

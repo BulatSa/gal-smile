@@ -1189,4 +1189,263 @@
 	</div>
 </section>
 
+
+<section class="team-sec def-sec">
+	<div class="container">
+		<div class="team">
+			<div class="row">
+				<div class="grid-6 grid-12_m">
+					<div class="page-title">
+						<p class="h1">Вашу улыбку создают</p>
+					</div>
+					<div class="team__big-name">
+						<p>Головешко Сергей Андреевич</p>
+						<span>Главный врач клиники</span>
+					</div>
+				</div>
+				<div class="grid-6 grid-12_m">
+					<div class="team__list">
+						<div class="team__item">
+							<a href="https://www.youtube.com/watch?v=_g8cD375Du8 " class="team__item-img fancy-video">
+								<img src="img/team/face-1.jpg" alt="" class="team__item-face">
+								<img src="img/team/video.png" alt="" class="team__item-video">
+							</a>
+							<div class="team__item-name">
+								<p>Симоненко Максим Александрович</p>
+								<span>Ортопед-хирург, имплантолог</span>
+							</div>
+							<div class="team__item-quote-wrap">
+								<div class="team__item-quote">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto cum dolorem earum exercitationem expedita incidunt ipsa iste itaque iusto labore nulla omnis praesentium quaerat rerum, suscipit vero. Iure, porro?
+								</div>
+								<a href="#" class="team__item-more">Подробнее</a>
+							</div>
+						</div>
+						<div class="team__item">
+							<a href="https://www.youtube.com/watch?v=7jUDfIFS4wo " class="team__item-img fancy-video">
+								<img src="img/team/face-2.jpg" alt="" class="team__item-face">
+								<img src="img/team/video.png" alt="" class="team__item-video">
+							</a>
+							<div class="team__item-name">
+								<p>Головешко Сергей Андреевич</p>
+								<span>Ортопед-хирург, имплантолог</span>
+							</div>
+							<div class="team__item-quote-wrap">
+								<div class="team__item-quote">
+									“Я убежден, что новая улыбка дает не только молодость, красоту и здоровье. Улыбка открывает двери. Помогает выйти замуж или жениться, перейти на новый уровень в бизнесе, найти работу, подружиться и просто обрести внутреннее спокойствие.  14 лет специализируется на эстетике улыбки. Виниры и имплантация. Пройдено более 100 курсов в 10 странах, в т.ч. США, Корее и Германии.”
+								</div>
+								<a href="#" class="team__item-more">Подробнее</a>
+							</div>
+						</div>
+
+						<div class="team__item">
+							<a href="#" class="team__item-img fancy-video">
+								<img src="img/team/face-3.jpg" alt="" class="team__item-face">
+								<img src="img/team/video.png" alt="" class="team__item-video">
+							</a>
+							<div class="team__item-name">
+								<p>Рямшева Любовь Дмитриевна</p>
+								<span>Стоматолог-терапевт</span>
+							</div>
+							<div class="team__item-quote-wrap">
+								<div class="team__item-quote">
+									“Нет искусства более полезного, чем медицина. Поэтому я врач. Люблю сохранять здоровье. Лечу каналы с микроскопом. Перфекционист. Не закончу пока сама не буду удовлетворена работой.”
+								</div>
+								<a href="#" class="team__item-more">Подробнее</a>
+							</div>
+						</div>
+						<div class="team__item">
+							<a href="#" class="team__item-img fancy">
+								<img src="img/team/face-4.jpg" alt="" class="team__item-face">
+								<img src="img/team/video.png" alt="" class="team__item-video">
+							</a>
+							<div class="team__item-name">
+								<p>Абесадзе Георгий Валерьевич</p>
+								<span>Стоматолог-терапевт, хирург</span>
+							</div>
+							<div class="team__item-quote-wrap">
+								<div class="team__item-quote">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto cum dolorem earum exercitationem expedita incidunt ipsa iste itaque iusto labore nulla omnis praesentium quaerat rerum, suscipit vero. Iure, porro?
+								</div>
+								<a href="#" class="team__item-more">Подробнее</a>
+							</div>
+						</div>
+
+						<div class="team__item">
+							<a href="#" class="team__item-img">
+								<img src="img/team/face-5.jpg" alt="" class="team__item-face">
+								<img src="img/team/video.png" alt="" class="team__item-video">
+							</a>
+							<div class="team__item-name">
+								<p>Сафонов Кирилл Александрович</p>
+								<span>Врач стоматолог–ортодонт</span>
+							</div>
+							<div class="team__item-quote-wrap">
+								<div class="team__item-quote">
+									“Передвину зубы из точки А в точку Б. Поставлю невидимые брекеты. Исправлю прикус, спрячу диастемы и построю зубы в одну шеренгу :) “
+								</div>
+								<a href="#" class="team__item-more">Подробнее</a>
+							</div>
+						</div>
+						<div class="team__item">
+							<a href="https://youtu.be/Yw1PcwyvvCg" class="team__item-img fancy-video">
+								<img src="img/team/face-6.jpg" alt="" class="team__item-face">
+								<img src="img/team/video.png" alt="" class="team__item-video">
+							</a>
+							<div class="team__item-name">
+								<p>Семенищева Елена Алексеевна</p>
+								<span>Врач стоматолог. Детский терапевт, хирург </span>
+							</div>
+							<div class="team__item-quote-wrap">
+								<div class="team__item-quote">
+									“Я очень люблю детей. Да, с ними бывает сложно, но в то же время - безумно интересно! Успокою, поставлю мультики, подарю игрушку-отвлекашку. Почищу, вылечу или удалю молочный зубик. Будем дружить :)”
+								</div>
+								<a href="#" class="team__item-more">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="team__btn">
+				<a href="#" class="btn">смотреть еще</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="contact-sec def-sec">
+
+	<div class="container">
+		<div class="contact">
+			<div class="row">
+				<div class="grid-6 grid-12_m">
+					<div class="page-title">
+						<p class="h1">Как до нас добраться?</p>
+					</div>
+					<p class="contact__street">Санкт-Петербург<br>Улица Красуцкого&nbsp;3, корпус&nbsp;2
+					</p>
+					<div class="contact__phones">
+						<div class="contact__phone">
+							<p>звоните:</p>
+							<a href="tel:88122090110">8 (812) 209 01 10</a>
+						</div>
+						<div class="contact__work">
+							<p>Режим работы:</p>
+							<span>9:00 – 21:00 | Пн – Вс<small>7 дней в неделю</small></span>
+						</div>
+					</div>
+					<div class="contact__btn">
+						<a href="#" class="btn fancy" data-src="#modal-call">заказать обратный звонок</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="contact__map">
+				<div id="googlemap"></div>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDybbqjrNjB4JMkoCyUUEGIUthFVXY6htA" type="text/javascript"></script>
+			</div>
+
+			<div class="row">
+				<div class="grid-4 grid-12_m">
+					<div class="contact__card">
+						<img src="img/contact/card-1.png" alt="">
+						<div class="contact__info">
+							<div class="contact__info-title">
+								<p>Подарки</p>
+								<span>клиентам</span>
+							</div>
+							<p>При комплексной чистке зубов дарим зубную нить в компактной упаковке.</p>
+						</div>
+					</div>
+				</div>
+				<div class="grid-4 grid-12_m">
+					<div class="contact__card">
+						<img src="img/contact/card-2.png" alt="">
+						<div class="contact__info">
+							<div class="contact__info-title">
+								<p>Лечите сейчас,</p>
+								<span>платите потом</span>
+							</div>
+							<p>Даем беспроцентную рассрочку на 3 – 6 месяцев или кредит по пониженной ставке от банков-партнеров.</p>
+						</div>
+					</div>
+				</div>
+				<div class="grid-4 grid-12_m">
+					<div class="contact__card">
+						<img src="img/contact/card-3.png" alt="">
+						<div class="contact__info">
+							<div class="contact__info-title">
+								<span>Бесплатный</span>
+								<p>трансфер</p>
+							</div>
+							<p>Привезем вас на такси из аэропорта или с вокзала и так же увезем обратно.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="last-problem-sec def-sec">
+	<div class="container">
+		<div class="last-problem">
+			<div class="row">
+				<div class="grid-8 grid-7_xl grid-6_l grid-12_m">
+					<div class="page-title">
+						<p class="h1">Расскажи<br>нам о своей проблеме</p>
+					</div>
+				</div>
+				<div class="grid-4 grid-5_xl grid-6_l grid-12_m">
+					<div class="last-problem__form">
+						<div class="form">
+							<div class="form__title">
+								<img src="img/last-problem/logo.png" alt="">
+								<p>Оставь онлайн заявку</p>
+								<span>расскажи о своей проблеме, а мы свяжемся с тобой и поможем найти решение.</span>
+							</div>
+							<form class="ajax-form">
+								<input type="hidden" value="Новая заявка" name="form_subject">
+								<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+								<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон" class="input-text" data-req="true" maxlength="18">
+								<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+								<textarea name="user_comment" placeholder="Ваша проблема" data-label="Комментарий" class="input-textarea"></textarea>
+								<button type="submit" class="btn">Записаться</button>
+								<label class="style-check-ios-vert">
+									<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+									<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+								</label>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="footer-sec">
+	<div class="container">
+		<div class="footer">
+			<div class="footer__sign">
+				<p>© 2018 ООО "СГ Тамбовская 13"</p>
+				<a href="#" target="_blank">Политика конфиденциальности</a>
+			</div>
+			<div class="footer__soc">
+				<a href="#" target="_blank"><i class="i-soc-fb"></i></a>
+				<a href="#" target="_blank"><i class="i-soc-insta"></i></a>
+				<a href="#" target="_blank"><i class="i-soc-vk"></i></a>
+			</div>
+			<div class="footer__dev">
+				<a href="https://penbrain.ru/" target="_blank">
+					<img src="img/logo-dev.png" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
 <?php include('footer.php'); ?>

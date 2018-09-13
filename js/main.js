@@ -477,3 +477,73 @@ $(function($){
 /***********************
  Steps Slider END
  ***********************/
+
+
+/***********************
+Team quote BEGIN
+***********************/
+$(document).ready(function() {
+	$('.team__item-quote').slideUp();
+	var $teamList = $('.team__list');
+
+	$('.team__item-more').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var $otherItems = $teamList.find('.team__item-more').not($this).closest('.team__item');
+
+		$otherItems.find('.team__item-quote').slideUp();
+		$otherItems.find('.team__item-quote-wrap').removeClass('active');
+		$otherItems.find('.team__item-more').text('Подробнее');
+
+		$(this).closest('.team__item-quote-wrap').toggleClass('active');
+		$(this).prev('.team__item-quote').slideToggle().toggleClass('active');
+
+		if($this.text() == 'Подробнее') {
+			$this.text('Свернуть');
+		} else {
+			$this.text('Подробнее');
+		}
+	})
+});
+/***********************
+Team quote END
+***********************/
+
+
+/**************************************************
+ Google Maps
+ ***************************************************/
+$(document).ready(function(){
+	if ($('#googlemap').length) {
+
+		google.maps.event.addDomListener(window, 'load', initMap);
+
+		function initMap() {
+			var mapOptions = {
+				zoom: 16,
+				scrollwheel: false,
+				zoomControlOptions: {
+					position: google.maps.ControlPosition.LEFT_CENTER
+				},
+				mapTypeControl: false,
+				center: new google.maps.LatLng(59.903319, 30.313501)
+			};
+
+			var mapElement = document.getElementById('googlemap');
+
+			var map = new google.maps.Map(mapElement, mapOptions);
+
+			var marker = new google.maps.Marker({
+				position: new google.maps.LatLng(59.903319, 30.313501),
+				map: map,
+				title: '121170, г. Москва, ул. Неверовского, д. 10, стр. 3А (м. Парк Победы)',
+				icon: '/img/contact/buble.png'
+			});
+		}
+		initMap();
+
+	}
+});
+/**************************************************
+ End Google Maps
+ ***************************************************/

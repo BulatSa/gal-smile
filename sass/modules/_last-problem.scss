@@ -1,0 +1,51 @@
+.last-problem-sec {
+	position: relative;
+	min-height: 990px;
+	background: url("../img/last-problem/bg.jpg") no-repeat center bottom;
+	@include res(l) {
+		background-position: 40% 0;
+	}
+	@include res(s) {
+		min-height: initial;
+		background: #f3f1f6;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 140px;
+		background: linear-gradient(to bottom, transparentize(#f3f1f6,1), #f3f1f6 90%);
+	}
+}
+
+.last-problem {
+	@include res(l) {
+		padding-top: $pad-s;
+	}
+	@include res(s) {
+		padding-top: 0;
+	}
+	.page-title {
+		text-align: left;
+		@include res(s) {
+			padding-bottom: $pad-s;
+			text-align: center;
+		}
+	}
+}
+
+.last-problem__form {
+	.form {
+		margin-left: auto;
+		@include res(s) {
+			margin-right: auto;
+		}
+	}
+	.form__title {
+		img {
+			border-radius: 50% 50% 0 0;
+		}
+	}
+}

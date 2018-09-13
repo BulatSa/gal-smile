@@ -1,0 +1,248 @@
+.contact-sec {
+	background: #fff;
+	overflow: hidden;
+}
+
+.contact {
+	.page-title {
+		text-align: left;
+	}
+}
+
+.contact__street {
+	font-size: 42px;
+	line-height: (56/42);
+	color: $blue;
+	@include res(xl) {
+		font-size: 36px;
+	}
+	@include res(l) {
+		font-size: 30px;
+	}
+	@include res(m) {
+		font-size: 28px;
+	}
+	@include res(s) {
+		font-size: 20px;
+	}
+}
+
+.contact__phones {
+	display: flex;
+	padding-top: $pad-s;
+	padding-bottom: $pad-s;
+	@include res(l) {
+		flex-wrap: wrap;
+	}
+	@include res(s) {
+		padding-top: $pad-xs;
+		padding-bottom: $pad-s;
+	}
+}
+
+.contact__phone {
+	@include res(l) {
+		width: 100%;
+		padding-bottom: $pad-xs;
+	}
+	p {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	a {
+		color: $blue;
+		font-size: 42px;
+		font-weight: bold;
+		white-space: nowrap;
+		@include res(xl) {
+			font-size: 34px;
+		}
+		@include res(m) {
+			font-size: 30px;
+		}
+		@include res(s) {
+			font-size: 24px;
+		}
+	}
+}
+
+.contact__btn {
+	@include res(s) {
+		text-align: center;
+	}
+}
+
+.contact__work {
+	padding-left: $pad-l;
+	@include res(l) {
+		padding-left: 0;
+	}
+	p {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	span {
+		color: $blue;
+		font-size: 18px;
+	}
+	small {
+		display: block;
+	}
+}
+
+.contact__map {
+	position: absolute;
+	top: 0;
+	left: 53%;
+	width: 50vw;
+	height: 440px;
+	border: 1px solid #b8bfcc;
+	border-right: none;
+	border-radius: 10px 0 0 10px;
+	overflow: hidden;
+	z-index: 1;
+	@include res(xl) {
+		height: 400px;
+	}
+	@include res(m) {
+		position: relative;
+		top: initial;
+		left: initial;
+		width: 100%;
+		height: 360px;
+		margin-top: $pad-s;
+		border: 1px solid #b8bfcc;
+		border-radius: 10px;
+	}
+	@include res(s) {
+		height: 300px;
+	}
+	#googlemap {
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.contact__card {
+	position: relative;
+	min-height: 320px;
+	margin-top: 140px;
+	border-radius: 10px;
+	box-shadow: 0 0 8px 0 transparentize(#000, 0.85);
+	overflow: hidden;
+	@include res(xl) {
+		margin-top: 120px;
+		min-height: 300px;
+	}
+	@include res(l) {
+		margin-top: 60px;
+		min-height: 270px;
+	}
+	@include res(m) {
+		min-height: 180px;
+		margin-top: 20px;
+	}
+	&:hover {
+		&:after {
+			opacity: 1;
+			transform: translate3d(0,0,0) scale(1);
+		}
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		left: -150px;
+		top: 0;
+		width: 310px;
+		height: 100%;
+		border-radius: 50%;
+		opacity: 0;
+		transition: all 0.3s ease;
+		transform: translate3d(-50px,0,0) scale(0.7);
+		background: transparentize(#6116a7, 0.8);
+		z-index: 0;
+		@include res(l) {
+			width: 240px;
+		}
+		@include res(m) {
+			width: 210px;
+		}
+	}
+	img {
+		position: absolute;
+		display: block;
+		left: 0;
+		top: 50%;
+		max-width: 100%;
+		max-height: 100%;
+		transform: translate3d(0,-50%,0);
+		z-index: 1;
+		@include res(l) {
+			max-height: 130px;
+		}
+		@include res(s) {
+			max-height: 110px;
+		}
+	}
+}
+
+.contact__info {
+	padding: $pad-s;
+	padding-left: 175px;
+	@include res(l) {
+		padding-right: 20px;
+		padding-left: 100px;
+	}
+	@include res(s) {
+		padding-left: 80px;
+	}
+	img {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translate3d(-50%,0,0);
+	}
+	&>p {
+		font-size: 16px;
+		line-height: (24/16);
+		@include res(xl) {
+			font-size: 15px;
+		}
+		@include res(l) {
+			font-size: 14px;
+		}
+	}
+}
+
+.contact__info-title {
+	padding-bottom: $pad-xxs;
+	color: $blue;
+	font-family: $font-head;
+	p {
+		font-size: 40px;
+		line-height: (40/36);
+		@include res(xl) {
+			font-size: 38px;
+		}
+		@include res(l) {
+			font-size: 30px;
+		}
+		@include res(s) {
+			font-size: 26px;
+		}
+	}
+	span {
+		display: block;
+		font-size: 24px;
+		line-height: (36/24);
+		@include res(l) {
+			font-size: 20px;
+		}
+		@include res(s) {
+			font-size: 18px;
+		}
+	}
+}

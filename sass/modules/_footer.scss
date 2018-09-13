@@ -1,0 +1,24 @@
+.footer-sec {
+	padding: $pad-m 0;
+	background: #f3f1f6;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__sign {
+	p {
+		font-size: 14px;
+		color: #000;
+	}
+	a {
+		font-size: 14px;
+		color: #a6a6a6;
+	}
+}
+
+.footer__soc {}
+
+.footer__dev {}

@@ -73,12 +73,18 @@ button {
 			font-size: 16px;
 		}
 	}
-	span {}
+	span {
+		font-size: 16px;
+		line-height: (26/16);
+		@include res(s) {
+			font-size: 14px;
+		}
+	}
 }
 
 .ajax-form {
 	position: relative;
-	input {
+	input, textarea {
 		width: 100%;
 	}
 	.btn {
@@ -89,7 +95,7 @@ button {
 	z-index: 2;
 }
 
-.input-text {
+.input-text, .input-textarea {
 	display: inline-block;
 	margin-bottom: 15px;
 	padding: 15px 20px;
@@ -122,6 +128,13 @@ button {
 
 	&.error{
 		border-color: red;
+	}
+}
+
+.input-textarea {
+	min-height: 100px;
+	@include res(s) {
+		min-height: 80px;
 	}
 }
 
@@ -303,7 +316,7 @@ button {
 				transform: translate3d(0,18px,0);
 			}
 			&:after{
-				background: #a269ca;
+				background: $yellow;
 			}
 		}
 
@@ -353,11 +366,11 @@ button {
 		}
 
 		a{
-			border-bottom: 1px solid #a269ca;
+			border-bottom: 1px solid $yellow;
 			transition: all 0.3s ease;
 
 			&:hover{
-				color: #a269ca;
+				color: $yellow;
 			}
 		}
 	}
