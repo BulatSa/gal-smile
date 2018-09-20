@@ -6,6 +6,11 @@
 .footer {
 	display: flex;
 	justify-content: space-between;
+	@include res(s) {
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .footer__sign {
@@ -19,6 +24,51 @@
 	}
 }
 
-.footer__soc {}
+.footer__soc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	@include res(s) {
+		padding-top: $pad-xs;
+	}
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 45px;
+		height: 45px;
+		margin: 0 7px;
+		border-radius: 50%;
+		border: 1px solid #a6a6a6;
+		transition: all 0.3s ease;
+		box-shadow: 0 0 0 0 transparentize(#000, 0.9);
+		color: #a6a6a6;
+		&:hover {
+			color: $blue;
+			border-color: $yellow;
+			background: $yellow;
+			box-shadow: 0 0 0 5px transparentize(#000, 0.95);
+		}
+	}
+	.i-soc-fb {
+		font-size: 22px;
+	}
+	.i-soc-insta {
+		font-size: 22px;
+	}
+	.i-soc-vk {
+		font-size: 15px;
+	}
+}
 
-.footer__dev {}
+.footer__dev {
+	@include res(s) {
+		padding-top: $pad-xs;
+	}
+	a {
+		display: block;
+	}
+	img {
+		display: block;
+	}
+}

@@ -191,7 +191,7 @@
 	}
 }
 
-.big-head__circle {
+.big-head__circles {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -203,28 +203,28 @@
 	//animation: mans-pulse 4s infinite linear alternate;
 	transform-origin: 0 0;
 	z-index: 0;
-	&:before, &:after {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		border-radius: 50%;
-		background: transparentize(#6116a7,0.9);
+	&.stop-anim {
+		.big-head__circle {
+			animation-play-state: paused;
+		}
 	}
-	&:before {
+}
+
+.big-head__circle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+	background: transparentize(#6116a7,0.9);
+	&--1 {
 		animation: mans-pulse 15s infinite ease alternate;
 		transform-origin: 51% 51%;
 	}
-	&:after {
+	&--2 {
 		animation: mans-pulse-2 20s infinite ease alternate;
 		transform-origin: 48% 48%;
-	}
-	&.stop-anim {
-		&:before, &:after {
-			animation-play-state: paused;
-		}
 	}
 }
 

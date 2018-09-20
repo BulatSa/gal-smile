@@ -35,12 +35,12 @@
 	<img src="img/logo-top-mobille.png" alt="">
 	<nav class="mobile-menu">
 		<ul>
-			<li><a href="#">О нас</a></li>
-			<li><a href="#">Наши работы</a></li>
-			<li><a href="#">Услуги и цены</a></li>
-			<li><a href="#">Отзывы</a></li>
-			<li><a href="#">Команда</a></li>
-			<li><a href="#">Контакты</a></li>
+			<li><a href="#about-us" class="scrollto">О нас</a></li>
+			<li><a href="#our-works" class="scrollto">Наши работы</a></li>
+			<li><a href="#services" class="scrollto">Услуги и цены</a></li>
+			<li><a href="#reviews" class="scrollto">Отзывы</a></li>
+			<li><a href="#our-team" class="scrollto">Команда</a></li>
+			<li><a href="#contacts" class="scrollto">Контакты</a></li>
 		</ul>
 	</nav>
 	<div class="mobile-menu__btn">
@@ -108,7 +108,10 @@
 			</div>
 			<div class="big-head__mans">
 				<img src="img/big-head/mans.png" alt="">
-				<div class="big-head__circle"></div>
+				<div class="big-head__circles">
+					<div class="big-head__circle big-head__circle--1"></div>
+					<div class="big-head__circle big-head__circle--2"></div>
+				</div>
 			</div>
 			<div class="big-head__name big-head__name--1">
 				<p>Головешко Сергей Андреевич</p>
@@ -128,7 +131,7 @@
 </section>
 
 
-<section class="about-sec def-sec">
+<section class="about-sec def-sec" id="about-us">
 	<div class="container">
 		<div class="about">
 			<div class="row">
@@ -304,7 +307,7 @@
 </section>
 
 
-<section class="result-sec def-sec">
+<section class="result-sec def-sec" id="our-works">
 	<div class="container">
 		<div class="result">
 			<div class="page-title">
@@ -596,7 +599,7 @@
 </section>
 
 
-<section class="service-sec def-sec">
+<section class="service-sec def-sec" id="services">
 	<div class="container">
 		<div class="service">
 			<div class="page-title">
@@ -1140,7 +1143,7 @@
 </div>
 
 
-<section class="reviews-sec def-sec">
+<section class="reviews-sec def-sec" id="reviews">
 	<div class="container">
 		<div class="reviews">
 			<div class="page-title">
@@ -1190,7 +1193,7 @@
 </section>
 
 
-<section class="team-sec def-sec">
+<section class="team-sec def-sec" id="our-team">
 	<div class="container">
 		<div class="team">
 			<div class="row">
@@ -1314,7 +1317,7 @@
 </section>
 
 
-<section class="contact-sec def-sec">
+<section class="contact-sec def-sec" id="contacts">
 
 	<div class="container">
 		<div class="contact">
@@ -1342,8 +1345,9 @@
 			</div>
 
 			<div class="contact__map">
-				<div id="googlemap"></div>
-				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDybbqjrNjB4JMkoCyUUEGIUthFVXY6htA" type="text/javascript"></script>
+				<div id="googlemap">
+					<iframe src="https://yandex.ru/map-widget/v1/-/CBBJBUsC8C" width="100%" height="100%" frameborder="0" allowfullscreen="true"></iframe>
+				</div>
 			</div>
 
 			<div class="row">

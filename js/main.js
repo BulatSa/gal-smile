@@ -161,7 +161,10 @@ $(function () {
 $(function () {
 	$('.scrollto').on('click', function () {
 		var elementClick = $(this).attr("href");
-		var destination = $(elementClick).offset().top;
+		var destination = $(elementClick).offset().top - 25;
+
+		$('.hamburger').removeClass('is-active');
+		$('.mobile-menu-wrap').removeClass('opened');
 		$('html,body').stop().animate({scrollTop: destination}, 1000);
 		return false;
 	});
