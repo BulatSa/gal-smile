@@ -84,23 +84,34 @@
 			line-height: (18/13);
 		}
 	}
-	img {
+	svg {
 		position: absolute;
 		left: 50%;
 		bottom: 12px;
 		display: block;
 		max-width: 100%;
 		transform: translate3d(-50%,0,0);
+
 		@include res(m) {
 			top: 15px;
 			left: 12px;
 			transform: translate3d(0,0,0);
 		}
+		path {
+			fill: #fff;
+			transition: all 0.3s ease;
+		}
 	}
 	&.is-selected {
+		color: $blue;
 		border-color: #829bb7;
 		box-shadow: 0 0 0 3px #829bb7;
-		background: #a269ca;
+		background: #fcd448;
+		svg {
+			path {
+				fill: $blue;
+			}
+		}
 	}
 }
 
@@ -242,7 +253,7 @@
 
 .problems__slide-img {
 	position: relative;
-	max-width: 430px;
+	max-width: 450px;
 	top: -50px;
 	margin: 0 auto -50px;
 	z-index: 1;

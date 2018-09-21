@@ -13,14 +13,15 @@
 	}
 	a {
 		margin: 0 $pad-xs;
+		background: transparentize(#fff,0.5);
 		@include res(s) {
 			margin: 0 5px 15px;
 		}
 		&.active {
-			color: #fff;
-			text-shadow: 0 1px 2px transparentize(#251034, 0.25);
+			color: $blue;
+			text-shadow: 0 1px 2px transparentize(#251034, 0.75);
 			box-shadow: 0 0 0 5px transparentize(#fff,0.5);
-			background: #a269ca;
+			background: $yellow;
 		}
 	}
 }
@@ -29,9 +30,9 @@
 	.flickity-prev-next-button {
 		transition: all 0.3s ease;
 		&:hover {
-			box-shadow: 0 0 0 6px #ddd1e8;
+			box-shadow: 0 0 0 6px #dcdeea;
 			path {
-				fill: #f35d9b;
+				fill: $yellow;
 			}
 		}
 		svg {

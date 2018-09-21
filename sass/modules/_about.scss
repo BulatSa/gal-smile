@@ -156,16 +156,16 @@
 		justify-content: center;
 		width: 145px;
 		height: 145px;
-		border: 1px solid #8830da;
+		border: 2px solid $yellow;
 		border-radius: 50%;
 		transition: all 0.3s ease;
-		box-shadow: 0 0 0 0 $blue inset, 0 0 0 0 $blue;
+		box-shadow: 0 0 0 0 $yellow inset, 0 0 0 0 $yellow;
 		@include res(l) {
 			width: 90px;
 			height: 90px;
 		}
 		&:hover {
-			box-shadow: 0 0 1px 0 #8830da inset, 0 0 0 3px transparentize(#8830da,0.5);
+			box-shadow: 0 0 1px 0 $yellow inset, 0 0 0 3px transparentize($yellow,0.5);
 		}
 		img {
 			margin-left: 6px;
@@ -188,6 +188,15 @@
 	}
 	.flickity-button {
 		background: transparentize(#000,1);
+		&:hover {
+			path {
+				fill: $yellow;
+			}
+		}
+		path {
+			fill: $blue;
+			transition: all 0.3s ease;
+		}
 	}
 	.flickity-prev-next-button.previous {
 		left: 195px;

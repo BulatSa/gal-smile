@@ -40,15 +40,15 @@
 	}
 
 	&--trans {
-		color: #a269ca;
+		color: $blue;
 		text-shadow: 0 2px 5px transparentize(#652b84, 1);
 		box-shadow: 0 0 0 5px transparentize(#fff,1);
-		border: 2px solid #a269ca;
+		border: 2px solid $yellow;
 		background: transparentize(#000,1);
 		&:hover {
-			color: #fff;
-			text-shadow: 0 1px 2px transparentize(#251034, 0.25);
-			background: #a269ca;
+			color: $blue;
+			text-shadow: 0 1px 2px transparentize(#251034, 0.75);
+			background: $yellow;
 		}
 	}
 }
