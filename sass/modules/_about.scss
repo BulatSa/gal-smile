@@ -1,5 +1,6 @@
 .about-sec {
 	background: url("../img/about/bg.jpg") no-repeat center bottom;
+	overflow: hidden;
 	@include res(s) {
 		background: url("../img/about/bg-mobile.jpg") no-repeat center bottom;
 		background-size: cover;
@@ -223,6 +224,7 @@
 	background: url("../img/about/bg-sert.jpg") no-repeat center;
 	background-size: 100% 100%;
 	@include res(s) {
+		max-width: 280px;
 		width: calc(75% - 10px);
 		margin-right: 5px;
 		margin-left: 5px;

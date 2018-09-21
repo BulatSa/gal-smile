@@ -2884,7 +2884,8 @@ button::-moz-focus-inner {
       display: none; } }
 
 .about-sec {
-  background: url("../img/about/bg.jpg") no-repeat center bottom; }
+  background: url("../img/about/bg.jpg") no-repeat center bottom;
+  overflow: hidden; }
   @media (max-width: 680px) {
     .about-sec {
       background: url("../img/about/bg-mobile.jpg") no-repeat center bottom;
@@ -3122,6 +3123,7 @@ button::-moz-focus-inner {
   background-size: 100% 100%; }
   @media (max-width: 680px) {
     .about__sert {
+      max-width: 280px;
       width: calc(75% - 10px);
       margin-right: 5px;
       margin-left: 5px;
@@ -3196,7 +3198,8 @@ button::-moz-focus-inner {
 .problems-sec {
   min-height: 1070px;
   color: #fff;
-  background: url("../img/problem/bg.jpg") no-repeat center bottom, #00336c; }
+  background: url("../img/problem/bg.jpg") no-repeat center bottom, #00336c;
+  overflow: hidden; }
   @media (max-width: 768px) {
     .problems-sec {
       min-height: initial;
@@ -5082,6 +5085,9 @@ button::-moz-focus-inner {
     background: -webkit-linear-gradient(top, rgba(243, 241, 246, 0), #f3f1f6 90%);
     background: -o-linear-gradient(top, rgba(243, 241, 246, 0), #f3f1f6 90%);
     background: linear-gradient(to bottom, rgba(243, 241, 246, 0), #f3f1f6 90%); }
+    @media (max-width: 680px) {
+      .last-problem-sec:after {
+        content: none; } }
 
 @media (max-width: 1024px) {
   .last-problem {

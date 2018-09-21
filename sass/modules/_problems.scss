@@ -2,6 +2,7 @@
 	min-height: 1070px;
 	color: #fff;
 	background: url("../img/problem/bg.jpg") no-repeat center bottom,#00336c;
+	overflow: hidden;
 	@include res(m) {
 		min-height: initial;
 		padding-bottom: 300px;

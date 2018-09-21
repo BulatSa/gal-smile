@@ -17,6 +17,9 @@
 		width: 100%;
 		height: 140px;
 		background: linear-gradient(to bottom, transparentize(#f3f1f6,1), #f3f1f6 90%);
+		@include res(s) {
+			content: none;
+		}
 	}
 }
 
