@@ -47,6 +47,14 @@ button {
 			content: none;
 		}
 	}
+
+	&--modal {
+		margin-top: 0;
+		padding-top: $pad-xs;
+		&:before, &:after {
+			content: none;
+		}
+	}
 }
 
 .form__title {
@@ -75,7 +83,7 @@ button {
 	}
 	span {
 		font-size: 16px;
-		line-height: (26/16);
+		line-height: 1.4;
 		@include res(s) {
 			font-size: 14px;
 		}

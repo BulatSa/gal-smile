@@ -102,7 +102,7 @@
 						</div>
 					</div>
 					<div class="big-head__btn">
-						<a href="#" class="btn" data-src="#modal-order">Записаться на прием</a>
+						<a href="#" class="btn fancy" data-src="#modal-order">Записаться на прием</a>
 					</div>
 				</div>
 			</div>
@@ -1186,7 +1186,7 @@
 				</div>
 			</div>
 			<div class="reviews__btn">
-				<a href="#" class="btn fancy" data-src="modal-order">Я хочу так же</a>
+				<a href="#last-problem" class="btn scrollto" data-src="modal-order">Я хочу так же</a>
 			</div>
 		</div>
 	</div>
@@ -1393,7 +1393,7 @@
 </section>
 
 
-<section class="last-problem-sec def-sec">
+<section class="last-problem-sec def-sec" id="last-problem">
 	<div class="container">
 		<div class="last-problem">
 			<div class="row">
